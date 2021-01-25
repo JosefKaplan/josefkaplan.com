@@ -9,7 +9,6 @@ body {
     background: cover;
     font-size: 100%;
     cursor: default;
-    
 }
 
 input{
@@ -83,8 +82,6 @@ a.certificate{
 a.certificate:hover{
     font-weight: 700;
 }
-
-
 
 .portrait {
     position: absolute;
