@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+
+@media (max-width: 1000px) {
+	 .menu{
+		tab-size: 100;
+		margin: auto;
+	 }
+	 .home {
+		background-image: url("./black.svg");
+		background-color: black opacity(0);
+		overflow-y: hidden;
+	}
+	.site { 
+		background-image: url("./white.svg");
+		background-color: white;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+	.about {
+		background-image: url("./pink.svg");
+		background-color: pink;
+		background-repeat: stretch;
+		background-attachment: fixed;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+}
+
+.home {
+	background-image: url("./black.svg");
+	background-color: black opacity(0);
+	overflow-y: hidden;
+}
+.site {
+	background-image: url("./white.svg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.about {
+	background-image: url("./pink.svg");
+	background-color: pink;
+	background-repeat: stre;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.head {
+	width: 100%;
+	height: 170px;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+h1{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+	text-transform: uppercase;
+}
+
+h1.h {
+	color:white;
+}
+
+h2 {
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 15.4px;
+
+}
+p {
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color:black;
+	text-decoration:none;
+	opacity: 1;
+}
+
+a.menu {
+	padding-left: 60px;
+	padding-right: 60px;
+	border: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color:black;
+	text-decoration:none;
+	opacity: 0.4;
+	text-transform: uppercase;
+	border: 10px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+}
+
+a.menu.home{
+	color:white;
+	border-color:rgba(0,0,0,0);
+	background: none;
+}
+
+a.menu:hover {
+	opacity: 1;
+	cursor: pointer;
+	transition: 0.8s;
+	font-weight: 400;
+	border: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+a.menu.home:hover{
+	border-color:rgba(255,255,255,1);
+	background: none;
+}
+
+a.menuselect {
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color:black;
+	text-decoration:none;
+	opacity: 1;
+	text-transform: uppercase;
+	border: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+a.menuselect.home{
+	color:white;
+	border-color:white;
+	background: none;
+}
+
+a.menuselect:hover {
+	opacity: 1;
+	transition: 0.8s;
+	font-weight: 400;
+	border: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+a.menuselect.home:hover{
+	border-color:white;
+	background: none;
+}
+
+.space { 
+	margin-top: 150px; 
+}
+.space2 { 
+	margin-top: 500px; 
+}
+ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 10px;
+}
+
+
+
+.gallery {
+		float: middle;
+		object-fit: cover;
+		opacity: 1;
+}
+.gallery img {
+		padding: 10px;
+		height: 280px;
+		width: 280px;
+		object-fit: cover;
+		margin: 10px;
+		opacity: 0.6;
+}
+.gallery img:hover {
+	cursor: pointer;
+	animation: shake 0.2s;
+	animation-iteration-count: infinite;
+	animation-delay: 0.05s;
+	opacity: 1;
+}
+@keyframes shake {
+	0% { transform: translate(0.1px, 0.1px) rotate(0deg); }
+	10% { transform: translate(-0.1px, -0.2px) rotate(-1deg); }
+	20% { transform: translate(-0.3px, 0px) rotate(1deg); }
+	30% { transform: translate(0.3px, 0.2px) rotate(0deg); }
+	40% { transform: translate(0.1px, -0.1px) rotate(1deg); }
+	50% { transform: translate(-0.1px, 0.2px) rotate(-1deg); }
+	60% { transform: translate(-0.3px, 0.1px) rotate(0deg); }
+	70% { transform: translate(0.3px, 0.1px) rotate(-1deg); }
+	80% { transform: translate(-0.1px, -0.1px) rotate(1deg); }
+	90% { transform: translate(0.1px, 0.2px) rotate(0deg); }
+	100% { transform: translate(0.1px, -0.2px) rotate(-1deg); }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.container { 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    text-align: center; 
+}
+
+.object {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+a.kontakt {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a.kontakt:hover {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+/* 
+=========================
+	BLACK.SVG ANIMACE
+=========================
+*/
+.st0{fill:#231F20; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;} /*pozadí*/
+.st1{fill:#E89F8D; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st2{clip-path:url(#SVGID_2_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st3{fill:#E89F8E; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st4{clip-path:url(#SVGID_4_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st5{fill:#DCDDDE;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st6{opacity:0.3; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st7{fill:none;stroke:#231F20;stroke-width:0.5;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st8{fill:none;stroke:#696A6D;stroke-width:0.5;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st9{opacity:0.4; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st10{fill:none;stroke:#504A4B;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st11{opacity:0.8; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st12{fill:none;stroke:#E89F8D;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st13{clip-path:url(#SVGID_20_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st14{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st15{clip-path:url(#SVGID_22_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st16{clip-path:url(#SVGID_24_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}
+.st17{clip-path:url(#SVGID_26_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10; overflow: hidden; position: fixed; z-index: -1; object-fit: cover;}

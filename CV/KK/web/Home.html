@@ -1,0 +1,82 @@
+<!--
+──────▄▀▄─────▄▀▄
+─────▄█░░▀▀▀▀▀░░█▄
+─▄▄──█░░░░░░░░░░░█──▄▄
+█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
+=============================
+ Thanks for checking my code!
+=============================
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kateřina Kobylinská | Home</title>
+		<link href="CSS1.css" type="text/css" rel="stylesheet">
+		<link href="lightbox.min.css" type="text/css" rel="stylesheet">
+		<script src="lightbox-plus-jquery.min.js"></script>
+	</head>
+	<body class="home">
+	<center>
+	<div class="object">
+		<svg version="1.1" x="0px" y="0px" viewBox="0 0 1280 1024" position="fixed" >
+			<g id="Vrstva_3">
+				<rect class="st0" width="100%" height="100%"/>
+			</g>
+			<g id="Vrstva_2">
+				<g class="st11">
+					<polyline class="st12" points="441,-46.6 24.71,486.49 420.82,1051.69"/>
+					<g>
+						<line class="st12" x1="352.49" y1="-218.03" x2="-445.55" y2="863.89"/>
+						<line class="st12" x1="364.8" y1="1251" x2="-166.51" y2="485.58"/>
+					</g>
+				</g>
+				<g class="st11">
+					<polyline class="st12" points="43.79,-68.77 522.54,480.6 67,1063.06"/>
+					<polyline class="st12" points="1737.79,-68.43 1259.04,480.94 1714.58,1063.4"/>
+					<g>
+						<line class="st12" x1="147.3" y1="-245.1" x2="1065.07" y2="869.86"/>
+						<path class="st12" d="M147.59,1250.13C183,1202,220,1157,257,1108c3-4,7-7,10-11c105-137,200-257,305-394c11-15,21-28,32-43
+						c8-10,16-19,24-29c35-48,68-88,104-135c4-5,7-11,12.16-16"/>
+					</g>
+					<g>
+						<line class="st12" x1="1636" y1="-245.1" x2="718.23" y2="869.86"/>
+						<line class="st12" x1="1650.16" y1="1268.79" x2="1039.14" y2="480"/>
+					</g>
+				</g>
+			</g>
+		</svg>
+	</div> 
+		<div class="head">
+			<h1 class="h"> Kateřina Kobylinská</h1>
+			<a class="menuselect home"; href="./Home.html">Home</a>
+			<a class="menu home"; href="./Kresbičky.html">Kresbičky</a>
+			<a class="menu home"; href="./Grafický Design.html">Grafický Design</a>
+			<a class="menu home"; href="./Figurální Kresba.html">Figurální Kresba</a>
+			<a class="menu home"; href="./About.html">About</a>
+		</div>
+	</center>
+			<script src="https://josefkaplan.com/anime-lib/anime.min.js"></script>
+			<script>
+				let animation = anime({
+					targets: '.head',
+					keyframes: [
+						{translateY: -20}],
+					duration: 1000,
+				});
+			</script>
+			<script>
+				strokeDashoffset: [anime.setDashoffset, 0];
+				let animation2 = anime({
+					targets: '.st11, .st12, .st0, .polylines path, .lines path',
+					strokeDashoffset: [anime.setDashoffset, 0],
+					easing: 'easeInOutSine',
+					duration: 1500,
+					delay: function(el, i) { return i * 250 },
+					direction: 'alternate',
+					loop: true
+				});
+			</script>
+	</body>
+</html>
