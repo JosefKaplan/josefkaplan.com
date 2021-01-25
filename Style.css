@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/pw/ACtC-3eLsZpnHOgd78jvjcXB_LicsN6MoQBw4_cWGlpO8C8beTGmUoVQByEh4fUb8__k9y1tV-s8OjqFMSDeET8vhn5SsLDBnxLUOKh9CAoh_BKSlBjB6D8xw2whVU7WvO6gu7azKFK1NRF2j3SyZJ691JPg=w972-h646-no?authuser=0");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-attachment: fixed;
+    background: cover;
+    font-size: 100%;
+    cursor: default;
+}
+
+input{
+    position: relative;
+    height:15px;
+    width: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    filter: saturate(100%);
+    }
+
+input:hover{
+    filter: saturate(225%);
+}
+
+nav {
+    overflow: hidden;
+}
+nav ul {
+    overflow-x:hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: table;
+    padding: 0;
+    font-weight: 600;
+}
+nav li {
+    display: table-cell;
+    text-align: center;
+    width: 50px;
+}
+li a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.7);
+    opacity: 0.8;
+    border-bottom: gray solid 1.5px;
+    border: white solid 1px;
+    background-color: white;
+    line-height: 2rem;
+    padding: 0.1rem;
+}
+li a:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.4s;
+    border-bottom: black solid 1.5px;
+    border: gray solid 1px;
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+}
+a {
+    opacity: 0.5;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+a.certificate{
+    margin-left: 3ch;
+    opacity: 1;
+}
+a.certificate:hover{
+    font-weight: 700;
+}
+
+
+
+.portrait {
+    position: absolute;
+    margin-top: 40px;
+    top: 20px;
+    width: 250px;
+    height: 250x;
+    left: 10px;
+    border: 3px solid grey;
+    border-radius: 100%;
+    align-content: top left;
+    overflow: hidden;
+}
+header {
+    margin: 10rem 20rem 10rem 20rem;
+    overflow: visible;
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 10000;
+  }
+
+section {
+    opacity: 0.7;
+    position: static;
+    margin-left: 35%;
+    margin-top: 1rem;
+    width: 54%;
+    padding: 5px 20px 20px 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    background: white;
+    border-radius: 3rem;
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    box-align: right;
+    text-align: left;
+}
+.personal {
+    position: absolute;
+    margin-left: 10px;
+    top: 20rem;
+    width: 30%;
+    margin-left: 10px;
+    box-align: left;
+}
+.projects {
+    position: absolute;
+    margin-left: 10px;
+    top: 60rem;
+    width: 30%;
+    margin-left: 10px;
+}
+.projects li{
+    list-style-type: none;
+    margin: 0.5rem;
+}
+.projects ul {
+    margin: 0.5rem;
+}
+h1 {
+    margin-bottom: 0;
+
+}
+h2 {
+    margin: 0.5rem 1rem;
+}
+h3 {
+    text-transform: uppercase;
+    margin: 0.5rem 1rem;
+}
+p {
+    margin: 0rem 2rem;
+}
+ul {
+    margin: 0;
+}
+ul p {
+    margin: 0rem;
+}
+main {
+    opacity: 0.9;
+}
+:target {
+    opacity: 0.9;
+}
+nav {
+    overflow: hidden;
+
+}
+footer {
+    margin: 1rem;
+}
+footer ul {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: table;
+    padding: 0;
+    font-weight: 600;
+}
+footer li {
+    display: table-cell;
+    text-align: center;
+    width: 50px;
+}
+
+
+
+
+
+@media (max-width: 1100px){
+    body {
+        background-size: 200%;
+        overflow-x: hidden;
+        font-size: 80%;
+    }
+    li a {
+        overflow: hidden;
+        height: 2rem;
+    }
+    .personal {
+        margin: 1rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px
+    }
+    .projects {
+        margin: 1rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px
+    }
+    section {
+        margin: 1rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px
+    }
+    .portrait {
+        position: static;
+    }
+    header {
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media (max-width: 800px){
+    body {
+        background-size: 200%;
+        overflow-x: hidden;
+        font-size: 50%;
+    }
+    li a {
+        overflow: hidden;
+        height: 2rem;
+    }
+    .personal {
+        margin: 0.5rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px;
+    }
+    .projects {
+        margin: 0.5rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px;
+    }
+    section {
+        margin: 0.5rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px;
+    }
+    .portrait {
+        position: static;
+    }
+    header {
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media (max-width: 480px){
+    body {
+        background-size: 400%;
+        overflow-x: hidden;
+        font-size: 50%;
+    }
+    nav {
+        display: none;
+    }
+    li a {
+        overflow: hidden;
+        height: 2rem;
+    }
+    .personal {
+        margin: 0.5rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px;
+    }
+    .projects {
+        margin: 0.5rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px;
+    }
+    section {
+        margin: 0.5rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+        max-width: 600px;
+    }
+    .portrait {
+        position: static;
+        margin: 0px;
+    }
+    header {
+        margin: 0;
+    }
+}
