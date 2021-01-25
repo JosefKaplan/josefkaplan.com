@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/pw/ACtC-3eLsZpnHOgd78jvjcXB_LicsN6MoQBw4_cWGlpO8C8beTGmUoVQByEh4fUb8__k9y1tV-s8OjqFMSDeET8vhn5SsLDBnxLUOKh9CAoh_BKSlBjB6D8xw2whVU7WvO6gu7azKFK1NRF2j3SyZJ691JPg=w972-h646-no?authuser=0");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-attachment: fixed;
+    background: cover;
+}
+
+section {
+    opacity: 0.7;
+    position: relative;
+    margin: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+    width: 50%;
+    margin-right: 10px;
+    background: white;
+    border-radius: 3rem;
+    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    box-align: right;
+    text-align: left;
+}
+
+
+a:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.4s;
+    font-weight: 600;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 10rem;
+
+}
+.button {
+    transition: all 0.5s;
+    position: relative;
+    width: 12rem;
+    height: 3rem;
+    text-align: center ;
+    border: solid rgba(0, 0, 0, 0.1) 0.05rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    border: solid rgba(0, 0, 0, 1) 0.05rem;
+}
+.button:hover::before {
+    opacity: 1;
+    transform: scale(0.5,0.5);
+    transform: rotate(-15deg);
+    border: solid rgba(0, 0, 0, 0.85) 0.1rem;
+}
+.button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: scale(1.2,1.2);
+    border: solid rgba(0, 0, 0, 1) 0.1rem;
+}
+.button:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+    transform: rotate(15deg);
+    border: solid rgba(0, 0, 0, 0.45) 0.1rem;
+}
+
+p {
+    margin: 3rem 0.5rem;
+}
+
+.back {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    z-index: 1;
+}
+.back img {
+    width: 50px;
+}
+.back:hover {
+    cursor: pointer;
+    filter: blur(3px);
+    transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    -webkit-transition: 0.6s ease-in-out;
+    -ms-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+}
+
+.back:not(:hover) {
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    -webkit-transition: 0.6s ease-in-out;
+    -ms-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+}
+@media (max-width: 1200px) {
+    body {
+        background-repeat: repeat;
+        overflow-x: hidden;
+    }
+    li a {
+        overflow-x: hidden;
+        height: 1rem;
+    }
+    .personal {
+        margin: 1rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+    }
+    
+    .projects {
+        margin: 1rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+
+    }
+    section {
+        margin: 1rem;
+        position: static;
+        width: auto;
+        box-align: left;
+        text-align: left;
+    }
+    .portrait {
+        position: static;
+    }
+    header {
+        position: static;
+    }
+    
+}
