@@ -145,27 +145,38 @@ a.menu {
 	border-color: white;
 	border-width: 2px;
 	border-style: solid;
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transition-delay: 0.03s;
 }
 
 a.menu.home{
 	color:white;
 	border-color:rgba(0,0,0,0);
 	background: none;
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transition-delay: 0.03s;
 }
 
 a.menu:hover {
 	opacity: 1;
 	cursor: pointer;
-	transition: 0.8s;
+	transition: 0.5s;
 	font-weight: 400;
 	border: 10px;
 	border-color: black;
 	border-width: 2px;
 	border-style: solid;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.03s;
 }
 a.menu.home:hover{
 	border-color:rgba(255,255,255,1);
 	background: none;
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transition-delay: 0.03s;
 }
 
 a.menuselect {
@@ -185,27 +196,38 @@ a.menuselect {
 	border-color: black;
 	border-width: 2px;
 	border-style: solid;
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transition-delay: 0.03s;
 }
 
 a.menuselect.home{
 	color:white;
 	border-color:white;
 	background: none;
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transition-delay: 0.03s;
 }
 
 a.menuselect:hover {
 	opacity: 1;
-	transition: 0.8s;
+	transition: 0.5s;
 	font-weight: 400;
 	border: 10px;
 	border-color: black;
 	border-width: 2px;
 	border-style: solid;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.03s;
 }
 
 a.menuselect.home:hover{
 	border-color:white;
 	background: none;
+	transition-timing-function: ease-in-out;
+	transition: 0.5s;
+	transition-delay: 0.03s;
 }
 
 .space { 
@@ -231,15 +253,28 @@ ul {
 		width: 280px;
 		object-fit: cover;
 		margin: 10px;
-		opacity: 0.9;
+		display: inline-block;
+		vertical-align: middle;
+		-webkit-transform: perspective(1px) translateZ(0);
+		transform: perspective(1px) translateZ(0);
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+		-webkit-transition-duration: 0.3s;
+		-webkit-transition-property: transform;
+		transition-property: transform;
+		animation-delay: 0.03s;
+		transition-timing-function: ease-in-out;
+		transition-duration: 0.3s;
 }
 
-.gallery img:hover {
+  .gallery img:hover, .gallery img:focus, .gallery img:active {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
 	cursor: pointer;
 	animation-iteration-count: infinite;
-	animation-delay: 0.05s;
-	opacity: 1;
-}
+	animation-delay: 0.03s;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+  }
 
   .buttons {
     display: flex;

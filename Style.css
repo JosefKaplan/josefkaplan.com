@@ -11,6 +11,11 @@ body {
     cursor: default;
 }
 
+i {
+    font-style: oblique 0deg;
+    color: grey;
+}
+
 input{
     position: relative;
     height:15px;
@@ -106,7 +111,7 @@ header {
   }
 
 section {
-    opacity: 0.7;
+    opacity: 0.9;
     position: static;
     margin-left: 35%;
     margin-top: 1rem;
@@ -115,7 +120,7 @@ section {
     overflow: hidden;
     margin-right: 10px;
     background: white;
-    border-radius: 3rem;
+    border-radius: 2em;
     box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
     margin-bottom: 20px;
     box-align: right;
@@ -213,7 +218,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px
+        max-width: 400px
     }
     .projects {
         margin: 1rem;
@@ -221,7 +226,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px
+        max-width: 400px
     }
     section {
         margin: 1rem;
@@ -229,7 +234,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px
+        max-width: 400px
     }
     .portrait {
         position: static;
@@ -259,7 +264,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px;
+        max-width: 400px;
     }
     .projects {
         margin: 0.5rem;
@@ -267,7 +272,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px;
+        max-width: 400px;
     }
     section {
         margin: 0.5rem;
@@ -275,7 +280,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px;
+        max-width: 400px;
     }
     .portrait {
         position: static;
@@ -308,7 +313,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px;
+        max-width: 400px;
     }
     .projects {
         margin: 0.5rem;
@@ -316,7 +321,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px;
+        max-width: 400px;
     }
     section {
         margin: 0.5rem;
@@ -324,7 +329,7 @@ footer li {
         width: auto;
         box-align: left;
         text-align: left;
-        max-width: 600px;
+        max-width: 400px;
     }
     .portrait {
         position: static;
