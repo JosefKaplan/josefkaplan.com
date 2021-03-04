@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+/*{
+    border: solid 1px red;
+}
+*/
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(rgba(200, 200, 200, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/pw/ACtC-3eLsZpnHOgd78jvjcXB_LicsN6MoQBw4_cWGlpO8C8beTGmUoVQByEh4fUb8__k9y1tV-s8OjqFMSDeET8vhn5SsLDBnxLUOKh9CAoh_BKSlBjB6D8xw2whVU7WvO6gu7azKFK1NRF2j3SyZJ691JPg=w972-h646-no?authuser=0");
     background-repeat: no-repeat;
-    background-size: 120%;
     background-attachment: fixed;
     background: cover;
     font-size: 100%;
     cursor: default;
+    background-size: 120%;
+}
+
+.svg1{
+    position: fixed;
+    top: 10em;
+    right: 1em;
+    z-index: -1;
 }
 
 i {
@@ -56,7 +65,7 @@ li a {
     text-align: center;
     text-transform: uppercase;
     color: rgba(0,0,0,0.7);
-    opacity: 0.8;
+    opacity: 0.9;
     border-bottom: gray solid 1.5px;
     border: white solid 1px;
     background-color: white;
@@ -69,7 +78,7 @@ li a:hover {
     transition: 0.4s;
     border-bottom: black solid 1.5px;
     border: gray solid 1px;
-    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 1em 1em 1em -1em  rgba(0,0,0,0.75);
 }
 a {
     opacity: 0.5;
@@ -89,8 +98,7 @@ a.certificate:hover{
 }
 
 .portrait {
-    position: absolute;
-    margin-top: 40px;
+    margin-top: 1em;
     top: 20px;
     width: 250px;
     height: 250x;
@@ -99,6 +107,7 @@ a.certificate:hover{
     border-radius: 100%;
     align-content: top left;
     overflow: hidden;
+    text-align: left;
 }
 header {
     margin: 10rem 20rem 10rem 20rem;
@@ -109,37 +118,22 @@ header {
     stroke-dasharray: 1500;
     stroke-dashoffset: 10000;
   }
+#logo {
+    top: 3em!important;
+    position: absolute;
+}
 
 section {
-    opacity: 0.9;
+    opacity: 0.8;
     position: static;
-    margin-left: 35%;
-    margin-top: 1rem;
-    width: 54%;
+    width: 90%;
     padding: 5px 20px 20px 20px;
     overflow: hidden;
-    margin-right: 10px;
     background: white;
     border-radius: 2em;
     box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
-    margin-bottom: 20px;
-    box-align: right;
-    text-align: left;
-}
-.personal {
-    position: absolute;
-    margin-left: 10px;
-    top: 20rem;
-    width: 30%;
-    margin-left: 10px;
-    box-align: left;
-}
-.projects {
-    position: absolute;
-    margin-left: 10px;
-    top: 60rem;
-    width: 30%;
-    margin-left: 10px;
+    margin-bottom: 3em;
+    margin-top: 3em;
 }
 .projects li{
     list-style-type: none;
@@ -150,23 +144,29 @@ section {
 }
 h1 {
     margin-bottom: 0;
+    text-align: left;
 
 }
 h2 {
     margin: 0.5rem 1rem;
+    text-align: left;
 }
 h3 {
     text-transform: uppercase;
     margin: 0.5rem 1rem;
+    text-align: left;
 }
 p {
     margin: 0rem 2rem;
+    text-align: left;
 }
 ul {
     margin: 0;
+    text-align: left;
 }
 ul p {
     margin: 0rem;
+    text-align: left;
 }
 main {
     opacity: 0.9;
@@ -198,144 +198,144 @@ footer li {
     width: 50px;
 }
 
-
-
-
-
-@media (max-width: 1100px){
+@media (max-width: 10000px){
     body {
         background-size: 200%;
         overflow-x: hidden;
         font-size: 80%;
+        max-width: 500px;
     }
     li a {
         overflow: hidden;
         height: 2rem;
-    }
-    .personal {
-        margin: 1rem;
-        position: static;
-        width: auto;
-        box-align: left;
-        text-align: left;
-        max-width: 400px
-    }
-    .projects {
-        margin: 1rem;
-        position: static;
-        width: auto;
-        box-align: left;
-        text-align: left;
-        max-width: 400px
+        max-width: 500px;
     }
     section {
-        margin: 1rem;
+        margin: 5em;
         position: static;
-        width: auto;
-        box-align: left;
-        text-align: left;
-        max-width: 400px
+        max-width: 500px;
     }
     .portrait {
         position: static;
+        max-width: 500px;
     }
     header {
         margin: 0;
+        max-width: 500px;
     }
 }
 
-
-
-
-
-@media (max-width: 800px){
+@media (max-width: 1200px){
     body {
         background-size: 200%;
         overflow-x: hidden;
         font-size: 50%;
+        max-width: 500px;
     }
     li a {
         overflow: hidden;
         height: 2rem;
+        max-width: 500px;
     }
     .personal {
         margin: 0.5rem;
         position: static;
         width: auto;
-        box-align: left;
-        text-align: left;
-        max-width: 400px;
+        max-width: 500px;
     }
     .projects {
         margin: 0.5rem;
         position: static;
         width: auto;
-        box-align: left;
-        text-align: left;
-        max-width: 400px;
+        max-width: 500px;
     }
     section {
         margin: 0.5rem;
         position: static;
         width: auto;
-        box-align: left;
-        text-align: left;
-        max-width: 400px;
+        max-width: 500px;
     }
     .portrait {
         position: static;
+        max-width: 500px;
     }
     header {
         margin: 0;
+        max-width: 500px;
+    }
+    #logo {
+        top: 5em!important;
     }
 }
-
-
-
-
 
 @media (max-width: 480px){
     body {
         background-size: 400%;
         overflow-x: hidden;
         font-size: 50%;
+        max-width: 400px;
     }
     nav {
         display: none;
+        max-width: 400px;
     }
     li a {
         overflow: hidden;
         height: 2rem;
+        max-width: 400px;
     }
     .personal {
         margin: 0.5rem;
         position: static;
         width: auto;
-        box-align: left;
-        text-align: left;
         max-width: 400px;
     }
     .projects {
         margin: 0.5rem;
         position: static;
         width: auto;
-        box-align: left;
-        text-align: left;
         max-width: 400px;
     }
     section {
         margin: 0.5rem;
         position: static;
         width: auto;
-        box-align: left;
-        text-align: left;
         max-width: 400px;
     }
     .portrait {
         position: static;
         margin: 0px;
+        max-width: 400px;
+        margin-top: 18em;
     }
     header {
         margin: 0;
+        max-width: 400px;
+    }
+    #logo {
+        top: 2em!important;
     }
 }
+
+
+#displayed{
+    cursor: pointer;
+}
+
+#display{
+    fill:#4557d4;
+}
+
+
+#display:hover{
+    fill: rgb(253, 255, 121);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+
+#keys:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
