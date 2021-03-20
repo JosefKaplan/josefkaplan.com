@@ -1,13 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*bootstrap-grid control*/
 /*{
-    border: solid 1px red;
-}
-*/
+        border: solid 1px red;
+    } 
+    */
 body {
     font-family: 'Roboto', sans-serif;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: cover;
-    font-size: 100%;
-    cursor: default;
+    overflow: hidden;
+}
+.thirdText {
+    margin-top:2em;
+    line-height: 1em;
+}
+.fourthText {
+    margin-top:0em;
+    line-height: 1em;
+}
+.cls-1 {
+    margin: 0.5em;
+    line-height: 1em;
+}
+
+.technology {
+    line-height: 1em;
+}
+header {
+    background-color:#2b3785;
+    width: 110%;
+    overflow-x: hidden;
+}
+.navbar-custom-2 {
+    background-color:#2b37859a;
+}
+.thumbnail:hover , .thumbnail:focus, .thumbnail:active {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	animation-iteration-count: infinite;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.4s;
+    border-bottom: black solid 1.5px;
+    border: gray solid 1px;
+    box-shadow: 1em 1em 1em -1em  rgba(0,0,0,0.75);
+}
+
+.thumbnail:not(:hover) {
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.icon {
+    margin: 0;
+}
+
+.icon:hover{
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform: rotate(360deg);
+    animation-direction: alternate;
+}
+
+.icon:not(:hover){
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+*:hover {
+    animation-delay: 0.05s;
 }
