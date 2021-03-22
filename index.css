@@ -20,7 +20,6 @@ body {
     margin: 0.5em;
     line-height: 1em;
 }
-
 .technology {
     line-height: 1em;
 }
@@ -32,6 +31,12 @@ header {
 .navbar-custom-2 {
     background-color:#2b37859a;
 }
+.navbar-left{
+    right: 10em;
+    position:absolute;
+    margin: 0;
+    height: 1em;
+  }
 .thumbnail:hover , .thumbnail:focus, .thumbnail:active {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
