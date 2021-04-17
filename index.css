@@ -4,6 +4,19 @@
         border: solid 1px red;
     } 
     */
+.thumbnail {
+    overflow: hidden!important;
+    width: 200px!important;
+    height: 200px!important;
+    max-width: 200px!important;
+    max-height: 200px!important;
+}
+
+.popis-projektu {
+    text-overflow: hidden;
+    white-space:nowrap;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
