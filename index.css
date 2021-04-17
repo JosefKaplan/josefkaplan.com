@@ -4,16 +4,6 @@
         border: solid 1px red;
     } 
     */
-.thumbnail {
-    overflow: hidden!important;
-    width: 200px!important;
-    height: 200px!important;
-}
-
-.popis-projektu {
-    text-overflow: hidden;
-    white-space:nowrap;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -57,12 +47,16 @@ header {
     border-bottom: black solid 1.5px;
     border: gray solid 1px;
     box-shadow: 1em 1em 1em -1em  rgba(0,0,0,0.75);
+    height: 200px;
+    width: 200px;
 }
 
 .thumbnail:not(:hover) {
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    height: 200px;
+    width: 200px;
 }
 
 img:hover {
