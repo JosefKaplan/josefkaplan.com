@@ -47,16 +47,12 @@ header {
     border-bottom: black solid 1.5px;
     border: gray solid 1px;
     box-shadow: 1em 1em 1em -1em  rgba(0,0,0,0.75);
-    height: 200px;
-    width: 200px;
 }
 
 .thumbnail:not(:hover) {
     transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    height: 200px;
-    width: 200px;
 }
 
 img:hover {
