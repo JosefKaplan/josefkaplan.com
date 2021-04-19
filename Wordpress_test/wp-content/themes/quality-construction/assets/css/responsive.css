@@ -1,0 +1,209 @@
+/* --------------------------------------
+=========================================
+Quality Construction
+Version: 1.0.0
+Designed By: Canyon Themes
+=========================================
+*/
+
+@media only screen and (min-width: 1201px) {
+    .carousel-inner>.item > .carousel-caption > h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 1em;
+        margin-bottom: 50px;
+    }
+    .carousel-inner>.item > .carousel-caption > h3 {
+        font-size: 35px;
+        line-height: 1em;
+        margin-bottom: 25px;
+    }
+    .navbar-static .nav> li >a {
+        padding: 15px 30px 15px 0;
+    }
+    .team-member1 .team-member1-details p {
+        font-size: 14px;
+    }
+    .section19 .section19-404 h1 {
+        font-size: 20em;
+    }
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .section-10-btn-cont {
+        text-align: right;
+        margin: 17px 0 0 0;
+    }
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .carousel-inner>.item > .carousel-caption > h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1em;
+        margin-bottom: 50px;
+    }
+    .carousel-inner>.item > .carousel-caption > h3 {
+        font-style: italic;
+        font-size: 24px;
+        line-height: 1em;
+        margin-bottom: 25px;
+    }
+    .navbar-static .nav> li >a {
+        padding: 15px 30px 15px 0;
+    }
+    .team-member1 .team-member1-details p {
+        font-size: 14px;
+    }
+    .section19 .section19-404 h1 {
+        font-size: 20em;
+    }
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .section-10-btn-cont {
+        text-align: right;
+        margin: 17px 0 0 0;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-inner>.item > .carousel-caption > h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1em;
+        margin-bottom: 50px;
+    }
+    .carousel-inner>.item > .carousel-caption > h3 {
+        font-style: italic;
+        font-size: 24px;
+        line-height: 1em;
+        margin-bottom: 25px;
+    }
+    .team-member1 .team-member1-details p {
+        font-size: 14px;
+    }
+    .section19 .section19-404 h1 {
+        font-size: 20em;
+    }
+    .section-10-btn-cont {
+        text-align: left;
+        margin: 17px 0 0 0;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .custom-logo-link {
+        float: left;
+        width: 250px;
+    }
+    .custom-logo-link img {
+        max-width: 100%;
+    }
+    
+   .breadcrumbs {
+        float: left;
+     }   
+
+    .navbar-header{
+        margin-left: 0;
+    }
+
+    p.site-title a,
+    h1.site-title {
+        color: #000000;
+        font-size: 20px;
+    }
+    p.site-description {
+        color: #000000;
+        font-size: 13px;
+    }
+    header .dropdown-menu > li > a:hover{
+        color: #333;
+    }
+    .slider .carousel-caption{
+        top: 20%;
+    }
+    .slider .carousel-indicators{
+        display: none;
+    }
+    .carousel-inner>.item > .carousel-caption > h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 50px;
+    }
+    .carousel-inner>.item > .carousel-caption > h3 {
+        font-style: italic;
+        font-size: 12px;
+        line-height: 1em;
+        margin-bottom: 25px;
+    }
+    .team-member1 .team-member1-details p {
+        font-size: 12px;
+    }
+    .section19 .section19-404 h1 {
+        font-size: 10em;
+    }
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    .section-10-btn-cont {
+        text-align: left;
+        margin: 17px 0 0 0;
+    }
+    .breadcrumbs ul{
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .breadcrumbs {
+      float: left;
+     }
+    .carousel-inner>.item > .carousel-caption > h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1em;
+        margin-bottom: 50px;
+    }
+    .carousel-inner>.item > .carousel-caption > h3 {
+        font-style: italic;
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 25px;
+    }
+    .team-member1 .team-member1-details p {
+        font-size: 12px;
+    }
+    .section19 .section19-404 h1 {
+        font-size: 10em;
+    }
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    .section-10-btn-cont {
+        text-align: left;
+        margin: 17px 0 0 0;
+    }
+}
+

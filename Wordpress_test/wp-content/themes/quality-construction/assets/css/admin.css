@@ -1,0 +1,29 @@
+
+.hide-radio {
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.hide-radio img, .hide-radio label {
+    display: block;
+}
+.hide-radio input[type="radio"] {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+}
+.hide-radio input[type=radio] + label {
+    border: 3px solid #F1F1F1;
+}
+
+.hide-radio input[type=radio]:checked + label {
+    border: 3px solid #F88C00;
+}
+
+ .radio-image-wrapper
+{
+    float:left !important;
+    margin-right:30px!important;
+
+}

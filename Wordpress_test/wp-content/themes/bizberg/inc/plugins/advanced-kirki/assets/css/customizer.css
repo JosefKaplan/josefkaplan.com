@@ -1,0 +1,21 @@
+.kirki_dtm_icons{
+	float: right;
+	margin-bottom: -30px;
+}
+.kirki_dtm_icons a {
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding: 7px;
+    height: 15px;
+    width: 15px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.kirki_dtm_icons a .dashicons {
+    font-size: 15px;
+    text-decoration: none;
+    color: #007cba;
+    width: auto;
+}

@@ -1,0 +1,14 @@
+== Changelog ==
+== 1.0.7 == Feb 17 2020
+ * Fix issue.
+== 1.0.6 == Jan 20 2020
+ * Fix issue.
+== 1.0.4 == Jan 24 2019
+ * Fix issue.
+== 1.0.3 == May 24 2018
+ * Fix issue.
+== 1.0.2 == April 14 2018
+ * Fix issue.
+== 1.0.1 == 
+ * Fix issue.
+* Initial release

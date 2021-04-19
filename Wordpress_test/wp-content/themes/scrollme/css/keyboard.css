@@ -1,0 +1,143 @@
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    background: #111;
+    border: 1px solid #111;
+}
+.main-navigation li:focus-within > ul,
+.main-navigation li:focus > ul {
+    display: block;
+}
+.main-navigation li:focus > a {
+    background: #df2c45;
+}
+
+.navigation.post-navigation .nav-previous a:focus .nav-title {
+    left: 100%;
+    opacity: 1;
+}
+
+.navigation.post-navigation .nav-next a:focus .nav-title {
+    right: 100%;
+    opacity: 1;
+}
+
+.pagination .nav-links a:focus {
+    background: #111;
+}
+
+.widget-area a:focus {
+    color: #df2c45;
+}
+
+h1.entry-title a:focus {
+    color: #df2c45;
+}
+
+.entry-meta a:focus {
+    color: #df2c45;
+}
+
+.entry-link a:focus {
+    background: #111;
+}
+
+.fp-section.active:focus .fp-controlArrow.fp-prev,
+.fp-section.active:focus .fp-controlArrow.fp-next {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ap-pricing-table:focus {
+    background: #df2c45;
+}
+
+.ap-pricing-table:focus {
+    top: -10px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.ap-pricing-table:focus .ap-pricing-head {
+    background: url('images/pricing-red.png');
+}
+
+.ap-pricing-table:focus .ap-pricing-features-inner li:last-child {
+    border-bottom: 0;
+}
+
+.ap-pricing-table:focus .ap-pricing-features-inner li {
+    border-bottom: 1px solid #e35165;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.ap-pricing-table:focus .ap-pricing-readmore {
+    background: #df2c45;
+}
+
+.ap-pricing-table:focus .ap-pricing-readmore::after {
+    border-color: #df2c45 #df2c45 #df2c45 transparent;
+}
+
+.ap-pricing-table:focus .ap-pricing-readmore:before {
+    border-color: #df2c45 transparent transparent transparent;
+}
+
+.feature-box-container:focus{
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.feature-box-container h3 a:focus{
+    color: #df2c45;
+}
+
+.banner-btn a:focus {
+    background: #111;
+}
+
+.view-more:focus {
+    background: none;
+    border: 2px solid #df2c45;
+    color: #df2c45 !important;
+}
+
+.portfolio-thumb:focus .port-title {
+    visibility: visible;
+    opacity: 1;
+}
+
+.portfolio-thumb:focus .port-title .port-text {
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.port-link-wrap a:focus{
+    background: #000;
+}
+
+.client-slider .client-sub:focus{
+    opacity: 0.8;
+}
+
+.sl-blog-post-wrap:focus{
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.sl-blog-post-excerpt h5 a:focus{
+    color: #df2c45;
+}
+
+.sl-blog-post-excerpt .sl-blog-readmore:focus {
+    background: #111;
+}
+
+.comment-body .reply a:focus {
+    color: #df2c45;
+}

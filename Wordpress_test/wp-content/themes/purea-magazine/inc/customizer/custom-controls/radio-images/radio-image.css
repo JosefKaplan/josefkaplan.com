@@ -1,0 +1,41 @@
+.customize-control-radio-image .image.ui-buttonset input[type=radio] {
+    height: auto; 
+}
+.customize-control-radio-image .image.ui-buttonset label {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px; 
+}
+.customize-control-radio-image .image.ui-buttonset label.ui-state-active {
+    background: none;
+}
+.customize-control-radio-image .customize-control-radio-buttonset label {
+    padding: 5px 10px;
+    background: #f7f7f7;
+    border-left: 1px solid #dedede;
+    line-height: 35px; 
+}
+.customize-control-radio-image label img {
+    border: 1px solid #bbb;
+    opacity: 0.2;
+}
+#customize-controls .customize-control-radio-image label img {
+    max-width: 50px;
+    height: auto;
+}
+.customize-control-radio-image label.ui-state-active img {
+    background: #dedede; 
+    border-color: #000; 
+    opacity: 1;
+}
+.customize-control-radio-image label.ui-state-hover img {
+    opacity: 0.9;
+    border-color: #999; 
+}
+.customize-control-radio-buttonset label.ui-corner-left {
+    border-radius: 3px 0 0 3px;
+    border-left: 0; 
+}
+.customize-control-radio-buttonset label.ui-corner-right {
+    border-radius: 0 3px 3px 0; 
+}

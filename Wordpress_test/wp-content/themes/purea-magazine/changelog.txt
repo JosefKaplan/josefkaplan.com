@@ -1,0 +1,74 @@
+== Changelog ==
+
+v1.1.9
+-- Fixed the full post width issue
+-- Third level dropdown height fix
+
+v1.1.8
+-- Added new settings in customizer (single post no sidebar content width)
+-- Style fixes
+
+v1.1.7
+-- Added new blog settings
+
+v1.1.6
+-- Added search in mobile menu
+
+v1.1.5
+-- Fix blog sidebar issue
+-- Added new customizer settings
+
+v1.1.4
+-- Fix issue with Safari
+-- Code Fixes
+
+v1.1.3
+-- Added Sidebar Gallery CSS
+-- Fixed image align issues in single post
+
+v1.1.2
+-- mobile page reload issue
+
+v1.1.1
+-- added Gutenberg Editor compatibility
+-- Frontpage Highlight area featured image fix
+
+v1.1.0
+-- added new customizer settings "Post Excerpt Length" for blog posts
+-- added new style widget for showing blog posts layout
+-- CSS fixes
+
+v1.0.9
+-- added Elementor Home Template
+-- added new Header Settings in customizer
+
+v1.0.8
+-- Blog page responsive fix
+
+v1.0.7
+-- Footer Copyrights bug fix
+
+v1.0.6
+-- Keyboard Nav fix
+-- Code fix
+
+v1.0.5
+-- Data sanitization fix
+
+v1.0.4
+--keyboard nav fixes
+--Style fixes
+
+v1.0.3
+--keyboard nav for mobile fix
+--Escaping data sanitization fixes
+
+v1.0.2
+--added next/previous buttons in single post
+--CSS fixes
+
+v1.0.1
+--bug fixes
+
+v1.0.0
+--initial release

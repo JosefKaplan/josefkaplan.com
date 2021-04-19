@@ -1,0 +1,60 @@
+Theme: Manduca - focus on accessibility
+
+FEATURES
+==
+ 
+
+Support of ISO/IEC 40500  (WCAG 2.0 )
+Accessibility features
+Indicated the WCAG level, number of guideline (success criterion) in brackets
+Please note, that the listed feature is not definately a success criterion for conforming to ISO/IEC:40500, but can be useful for many users. 
+--------------------------------------------------------------------------------------
+1. Preceivable
+        - 200 percent resize (AA 1.4.4 )
+        - Correct HTML5 landmarks (A 1.3.1, A 4.1.2)
+        - Accessible accordion (A 1.3.1)
+        - Provide alt text for header image (A 1.1.1 )
+        - Icons for different type of links: xls, doc, pdf (AAA 1.4.8)
+        - Resize text (AA 1.4.4)
+        - Enhanced contrast control (A 1.4.3)
+        - Link type indication with icon (AAA 1.4.8 )
+        - Change link to actual page to <span> element (A 1.4.1)
+        - Search: highlight/emphasise the searched expression in the list (A 1.4.1)
+        
+2. Operable
+        - No self link on homepage (A 2.4.4)
+        - Aria current on current menu item (A 2.4.4)
+        - Breadcrumb (AAA, 2.4.8)        
+        - Focus snail (AA 2.4.7)
+        - individual more link (A 2.4.4)
+        - Keyboard accessibility ( A 2.1.1, 2.1.2 )
+        - Support correct headings ( AA 2.4.6, AAA 2.4.8 )
+        - Focus visible ( AA 2.4.7)
+
+3. Understandable
+        - Hungarian language support
+        - Popup window alert if new window open with link.(AAA 2.4.9,  AAA 3.2.5 )
+        - Language of page ( A 3.1.1 )
+        - HTML elements : different  typography for different element. 
+
+4. Robust
+        - Valid HTML (A 4.1 )
+
+
+
+
+
+Template-parts
+--------------
+Located: manduca/template-parts/
+
+
+Header
+        /header/backgroundimage.php     : Add template part (background, GA scripts etc) just after the <body> tag.
+        /header/breadcrumb-template.php : Breadcrumb template use the Manduca's breadcrumb class. (important: Breadcrumb is effective not part of the header! )
+        
+Footer
+        /footer/footer-before.php       : Add something to html before the <main> tag. | located: footer.php
+        /footer/footer-after.php        : Add something to html just before closing div.site  tag. | located: footer.php | since 18.7
+        
+Posts   /posts/conent-search.php        : Add special template search. 

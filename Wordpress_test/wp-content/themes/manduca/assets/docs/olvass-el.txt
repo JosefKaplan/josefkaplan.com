@@ -1,0 +1,83 @@
+Manduca akadálymentes WordPress sablon
+Copyright 2015-2018; Edelényi Zsolt (ezs@web25.hu);
+
+Ez a program szabad szoftver; terjeszthető illetve módosítható a Free Software
+Foundation által kiadott GNU General Public License dokumentumában leírtak;
+akár a licenc 2-es, akár (tetszőleges) későbbi változata szerint.
+
+Ez a program abban a reményben kerül közreadásra, hogy hasznos lesz, de minden
+egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA VALÓ
+ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve. További
+részleteket a GNU General Public License (gnu-general-public-licence.txt) tartalmaz.
+
+A felhasználónak a programmal együtt meg kell kapnia a GNU General Public
+License egy példányát; ha mégsem kapta meg, akkor ezt a Free Software
+Foundationnak küldött levélben jelezze (cím: Free Software Foundation Inc.,
+59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.)
+
+
+
+============================
+==       LEÍRÁS           ==
+============================
+A sablon részletes bemutatása: http://akadálymentes-wordpress-sablon.hu/
+A Manduca sablon leglényegesebb jellemzője: megfelel a nemzetközi WEB akadálymentesítési irányelveknek (WCAG 2.0), és sok mindenben ezen felül is támogatja a fogyatékosságal élő felhasználókat.
+Az akadálymentes weboldal ergonómikus honlap. Egyszerű, nem zsúfolt, gyors, átlátható, érthető. A lényeg, hogy gyorsan és könnyen megtaláld benne a téged érintő tartalmat, és könnyen tudd használni.
+A design egyszerű (minimál), mert származtatott sablonokkal érdemes használni.
+
+
+===========================
+==    JELLEMZŐK          ==
+===========================
+    A weboldal területeinek jelzése WAI-ARIA elemekkel;
+    Akadálymentes, szabályos címsorszintrendszer;
+    Egyedi magyar fordítás. Nem voltam elégedett a beépített sablonok fordításaival. Szerettem volna személyesebb, más szövegeket. A sablonom magyar, nincs előkészítve fordításra.
+    A fókusz-kígyó. Aki a billentyűzetről használja, az oldalon tab billentyűvel megy a következő vezérlőelemre. Néha nagyon nehéz ezt követni, például a fő tartalom végéről az oldalsáv elejére. A fókusz-kígyó (focus-snail nevű JavaScript) vizuálisan megjeleníti a fókusz haladását egy kék színű kígyózó sávval.
+    Fejlécben elhelyezett keresési lehetőség.
+    Alaposan tesztelve több tucat böngészőn, képernyőfelbontással, képernyőolvasóval, nagykontrasztú üzemmódban, JavaScript nélkül is.
+    A címsorszintrendszer és a tipográfia egységesítése és jobb összehangolása. A weboldal címe többé nem első címsorszint, hanem egyszerű szöveg. A cím ugyanis a fejlécben szerepel minden oldalon, és a fő tartalom csak a második címsorszintben szerepel. Mostantól a fő tartalom címsorszintje lesz az első.
+
+============================
+==      TELEPÍTÉS         ==
+============================
+1. Admin panel ->Megjelenés>Sablonok 
+2. Feltöltés és a fájl kiválasztása
+3. Sablon aktiválása
+
+============================
+==      EGYÉB LICENCE     ==
+============================
+
+
+2. Focus Snake
+    - MIT Licence
+    - https://github.com/NV/focus-snail
+
+3. Accessible Megamenu Copyright © 2013 Adobe Systems Incorporated
+	-https://github.com/adobe-accessibility/Accessible-Mega-Menu/
+	-Apache 2.0 licence
+
+============================
+==         GYIK           ==
+============================
+- Miért készítettél újabb sablon, hiszen annyi van az interneten?
+- Alig van olyan sablon, amely az általános hozzáférést, akadálymentességet tartja legfőbb erényének. Ráadásul, e sablonhoz magyar fordítás és olvassel.txt is tartozik.
+
+- Miért oly fontos neked, hogy a sablonodat mindenki tudja használni?
+- Tim Barners-Lee mondta: "Az internet ereje az univerzalitás. Minden ember képes használni, képességeitől függetlenül. (https://en.wikiquote.org/wiki/Tim_Berners-Lee)
+
+
+============================
+==      VÁLTOZATOK        ==
+============================
+ = 1.0 =
+ Elkészült: 2015. április 24.
+ Teszteléshez, magán használatra. 
+ 
+ = 2.0 =
+ 2015. december 3.
+ A sablon alapos ellenőrzése után felkerült a WordPress theme repositoryba. 
+
+A továbbiakat lásd release-notes.txt fájlokban
+
+

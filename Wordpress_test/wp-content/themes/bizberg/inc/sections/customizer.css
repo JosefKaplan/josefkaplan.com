@@ -1,0 +1,633 @@
+#accordion-section-theme_upsell{
+  display: inline-block!important;
+    padding: 15px 0px 15px 0;
+    text-align: center;
+    width: 100%;
+}
+#accordion-section-recommended-plugins-customizer{
+  display: block !important;
+}
+#accordion-section-themes+.control-section{
+	text-align: center;
+	width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+li#accordion-section-theme_upsell a{
+    background: #0085ba;
+    padding: 15px 60px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 9px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 auto 5px;
+    float: none;
+    border-bottom: 2px solid #006799;
+    height: fit-content;
+    font-weight: 500;
+}
+/* Hover state animation applied here */
+li#accordion-section-theme_upsell a:hover { 
+  -webkit-animation: hover 1200ms linear 2 alternate;
+  animation: hover 1200ms linear 2 alternate;
+}
+
+/* Active state animation applied here */
+li#accordion-section-theme_upsell a:active {
+  -webkit-animation: active 1200ms ease 1 alternate;
+  animation: active 1200ms ease 1 alternate; 
+  background: #5F9BE0;
+}
+li#accordion-section-theme_upsell a.button-red {
+    background: #ff214f;
+    border-bottom: 2px solid #cc1b40;
+}
+.gray { background: #D2D2D2; }
+.gray:active { background: #b9b9b9; }
+
+/* Active state animation keyframes below */
+
+@-webkit-keyframes active { 
+  0% {transform: scale(1,1);}
+  90% {transform: scale(.9,.88);}
+  100% {transform: scale(.92,.9);}
+}
+
+keyframes active { 
+  0% {transform: scale(1,1);}
+  90% {transform: scale(.9,.88);}
+  100% {transform: scale(.92,.9);}
+}
+
+/* Hover state animation keyframes below */
+
+@-webkit-keyframes hover { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  1.8% { -webkit-transform: matrix3d(1.016, 0, 0, 0, 0, 1.037, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.016, 0, 0, 0, 0, 1.037, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  3.5% { -webkit-transform: matrix3d(1.033, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.033, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.7% { -webkit-transform: matrix3d(1.045, 0, 0, 0, 0, 1.129, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.045, 0, 0, 0, 0, 1.129, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  5.31% { -webkit-transform: matrix3d(1.051, 0, 0, 0, 0, 1.142, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.051, 0, 0, 0, 0, 1.142, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  7.01% { -webkit-transform: matrix3d(1.068, 0, 0, 0, 0, 1.158, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.068, 0, 0, 0, 0, 1.158, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  8.91% { -webkit-transform: matrix3d(1.084, 0, 0, 0, 0, 1.141, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.084, 0, 0, 0, 0, 1.141, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  9.41% { -webkit-transform: matrix3d(1.088, 0, 0, 0, 0, 1.132, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.088, 0, 0, 0, 0, 1.132, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  10.71% { -webkit-transform: matrix3d(1.097, 0, 0, 0, 0, 1.107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.097, 0, 0, 0, 0, 1.107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  12.61% { -webkit-transform: matrix3d(1.108, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.108, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  14.11% { -webkit-transform: matrix3d(1.114, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.114, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  14.41% { -webkit-transform: matrix3d(1.115, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.115, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  16.32% { -webkit-transform: matrix3d(1.119, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.119, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  18.12% { -webkit-transform: matrix3d(1.121, 0, 0, 0, 0, 1.096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.121, 0, 0, 0, 0, 1.096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  18.72% { -webkit-transform: matrix3d(1.121, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.121, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  20.02% { -webkit-transform: matrix3d(1.121, 0, 0, 0, 0, 1.113, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.121, 0, 0, 0, 0, 1.113, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  21.82% { -webkit-transform: matrix3d(1.119, 0, 0, 0, 0, 1.119, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.119, 0, 0, 0, 0, 1.119, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  24.32% { -webkit-transform: matrix3d(1.115, 0, 0, 0, 0, 1.11, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.115, 0, 0, 0, 0, 1.11, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  25.53% { -webkit-transform: matrix3d(1.113, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.113, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  29.23% { -webkit-transform: matrix3d(1.106, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.106, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  29.93% { -webkit-transform: matrix3d(1.105, 0, 0, 0, 0, 1.09, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.105, 0, 0, 0, 0, 1.09, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  35.54% { -webkit-transform: matrix3d(1.098, 0, 0, 0, 0, 1.105, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.098, 0, 0, 0, 0, 1.105, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  36.64% { -webkit-transform: matrix3d(1.097, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.097, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  41.04% { -webkit-transform: matrix3d(1.096, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.096, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  44.04% { -webkit-transform: matrix3d(1.096, 0, 0, 0, 0, 1.097, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.096, 0, 0, 0, 0, 1.097, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  51.45% { -webkit-transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  52.15% { -webkit-transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  58.86% { -webkit-transform: matrix3d(1.101, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.101, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  63.26% { -webkit-transform: matrix3d(1.101, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.101, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  66.27% { -webkit-transform: matrix3d(1.101, 0, 0, 0, 0, 1.101, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.101, 0, 0, 0, 0, 1.101, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  73.77% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  81.18% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  85.49% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  88.59% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  96% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes hover { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  1.8% { -webkit-transform: matrix3d(1.016, 0, 0, 0, 0, 1.037, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.016, 0, 0, 0, 0, 1.037, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  3.5% { -webkit-transform: matrix3d(1.033, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.033, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.7% { -webkit-transform: matrix3d(1.045, 0, 0, 0, 0, 1.129, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.045, 0, 0, 0, 0, 1.129, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  5.31% { -webkit-transform: matrix3d(1.051, 0, 0, 0, 0, 1.142, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.051, 0, 0, 0, 0, 1.142, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  7.01% { -webkit-transform: matrix3d(1.068, 0, 0, 0, 0, 1.158, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.068, 0, 0, 0, 0, 1.158, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  8.91% { -webkit-transform: matrix3d(1.084, 0, 0, 0, 0, 1.141, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.084, 0, 0, 0, 0, 1.141, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  9.41% { -webkit-transform: matrix3d(1.088, 0, 0, 0, 0, 1.132, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.088, 0, 0, 0, 0, 1.132, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  10.71% { -webkit-transform: matrix3d(1.097, 0, 0, 0, 0, 1.107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.097, 0, 0, 0, 0, 1.107, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  12.61% { -webkit-transform: matrix3d(1.108, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.108, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  14.11% { -webkit-transform: matrix3d(1.114, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.114, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  14.41% { -webkit-transform: matrix3d(1.115, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.115, 0, 0, 0, 0, 1.067, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  16.32% { -webkit-transform: matrix3d(1.119, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.119, 0, 0, 0, 0, 1.077, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  18.12% { -webkit-transform: matrix3d(1.121, 0, 0, 0, 0, 1.096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.121, 0, 0, 0, 0, 1.096, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  18.72% { -webkit-transform: matrix3d(1.121, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.121, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  20.02% { -webkit-transform: matrix3d(1.121, 0, 0, 0, 0, 1.113, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.121, 0, 0, 0, 0, 1.113, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  21.82% { -webkit-transform: matrix3d(1.119, 0, 0, 0, 0, 1.119, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.119, 0, 0, 0, 0, 1.119, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  24.32% { -webkit-transform: matrix3d(1.115, 0, 0, 0, 0, 1.11, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.115, 0, 0, 0, 0, 1.11, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  25.53% { -webkit-transform: matrix3d(1.113, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.113, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  29.23% { -webkit-transform: matrix3d(1.106, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.106, 0, 0, 0, 0, 1.089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  29.93% { -webkit-transform: matrix3d(1.105, 0, 0, 0, 0, 1.09, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.105, 0, 0, 0, 0, 1.09, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  35.54% { -webkit-transform: matrix3d(1.098, 0, 0, 0, 0, 1.105, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.098, 0, 0, 0, 0, 1.105, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  36.64% { -webkit-transform: matrix3d(1.097, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.097, 0, 0, 0, 0, 1.106, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  41.04% { -webkit-transform: matrix3d(1.096, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.096, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  44.04% { -webkit-transform: matrix3d(1.096, 0, 0, 0, 0, 1.097, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.096, 0, 0, 0, 0, 1.097, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  51.45% { -webkit-transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  52.15% { -webkit-transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.099, 0, 0, 0, 0, 1.102, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  58.86% { -webkit-transform: matrix3d(1.101, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.101, 0, 0, 0, 0, 1.099, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  63.26% { -webkit-transform: matrix3d(1.101, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.101, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  66.27% { -webkit-transform: matrix3d(1.101, 0, 0, 0, 0, 1.101, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.101, 0, 0, 0, 0, 1.101, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  73.77% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  81.18% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  85.49% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  88.59% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  96% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+.alert.alert-warning {
+    padding: 10px;
+    background: #ff6347;
+    color: #fff;
+    text-align: center;
+}
+.alert a {
+    color: #fff;
+}
+
+#customize-control-header_social_links {
+    border-top: 1px solid #d0cdcd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.customize-control-kirki-custom{
+  /*display: block !important;
+  pointer-events: none;*/
+}
+.customize-control-kirki-custom h2{
+  text-align: center;
+}
+#accordion-section-recommended-plugins-customizer h3 {
+    /*padding: 5px 10px 6px 14px;*/
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #008ec2 !important;
+    /*font-weight: 400;*/
+}
+.tb_recommended_plugins_wrapper {
+    padding: 0 20px 15px;
+}
+.tb_recommended_plugins_wrapper ul li {
+    font-weight: 500;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.install_activate_recommended_plugins img {
+    padding: 6px 0 0 0;
+}
+.install_activate_recommended_plugins .bizberg_spinner {
+    float: left;
+    margin-right: 10px;
+    display: none;
+}
+.install_activate_recommended_plugins .text {
+    float: right;
+    font-weight: 500;
+    line-height: 32px;
+}
+.bizberg_remove_install_notice {
+    float: right;
+    color: #ff214f;
+    text-decoration: none;
+    margin-top: -1px;
+    padding: 0;
+}
+.bizberg_remove_install_notice:hover{
+  color: #ff214f;
+}
+
+li#accordion-section-documentation .accordion-section-title,
+li#accordion-section-documentation .accordion-section-title:hover,
+li#accordion-section-top-bar .accordion-section-title,
+li#accordion-section-top-bar .accordion-section-title:hover,
+li#accordion-section-footer-mega-grids-columns .accordion-section-title,
+li#accordion-section-footer-mega-grids-columns .accordion-section-title:hover,
+li#accordion-section-preloader .accordion-section-title,
+li#accordion-section-preloader .accordion-section-title:hover,
+li#accordion-section-footer1 .accordion-section-title,
+li#accordion-section-footer1 .accordion-section-title:hover,
+li#accordion-section-fonts .accordion-section-title,
+li#accordion-section-fonts .accordion-section-title:hover{
+  background-color: #55616d !important;
+    border-left: 0 !important;
+    color: #fff !important;
+    background-image: linear-gradient(140deg,#4ec2f6 0,rgba(69,58,148,.8) 100%) !important;
+    display: block!important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 2.2;
+}
+li#accordion-section-documentation .accordion-section-title:after,
+li#accordion-section-top-bar .accordion-section-title:after,
+li#accordion-section-footer-mega-grids-columns .accordion-section-title:after,
+li#accordion-section-preloader .accordion-section-title:after,
+li#accordion-section-footer1 .accordion-section-title:after,
+li#accordion-section-fonts .accordion-section-title:after{
+  color: #fff !important;
+}
+li#accordion-section-documentation .accordion-section-title:before,
+li#accordion-section-top-bar .accordion-section-title:before,
+li#accordion-section-footer-mega-grids-columns .accordion-section-title:before,
+li#accordion-section-preloader .accordion-section-title:before,
+li#accordion-section-footer1 .accordion-section-title:before,
+li#accordion-section-fonts .accordion-section-title:before,
+li#accordion-section-pre-designed-sites .accordion-section-title:before {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    content: "\f481";
+    margin-right: 8px;
+}
+li#accordion-section-fonts .accordion-section-title:before{
+  content: "\f210";
+}
+li#accordion-section-footer1 .accordion-section-title:before{
+  content: "\f108";
+}
+li#accordion-section-preloader .accordion-section-title:before{
+  content: "\f533";
+}
+li#accordion-section-footer-mega-grids-columns .accordion-section-title:before{
+  content: "\f325";
+}
+li#accordion-section-top-bar .accordion-section-title:before{
+  content: "\f135";
+}
+.customizer_documentation_wrapper h3:after {
+    font-family: dashicons;
+    right: 10px;
+    position: absolute;
+    content: "\f347";
+    top: 31%;
+}
+.customizer_documentation_wrapper h3.active:after{
+  content: "\f343";
+}
+#customize-control-documentation-features{
+  pointer-events: auto;
+}
+.customizer_documentation_wrapper iframe {
+    width: 100%;
+}
+.customizer_documentation_wrapper h3 {
+    background: #fff;
+    display: block;
+    padding: 10px 35px 10px 10px;
+    text-transform: capitalize;
+    color: #008ec2;
+    font-size: 13px !important;
+    font-weight: 500;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 0px;
+    position: relative;
+}
+#sub-accordion-section-documentation{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#sub-accordion-section-documentation .customize-section-description-container {
+    padding: 0 12px;
+}
+.tb_customizer_container {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    display: none;
+}
+#accordion-section-recommended-plugins-customizer h3 {
+    padding: 5px 10px 6px 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #008ec2 !important;
+    font-weight: 400;
+}
+.tb_recommended_plugins_wrapper {
+    padding: 0 20px 15px;
+}
+.tb_recommended_plugins_wrapper ul li {
+    font-weight: 500;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.customizer_documentation_wrapper h2 {
+    text-transform: uppercase;
+    color: #007cba;
+    margin-bottom: 30px;
+}
+.customizer_documentation_wrapper .doc_title{
+  text-decoration: none;
+      display: block;
+}
+.tb_customizer_container .content img{
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+    margin-bottom: 15px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.ml-10{
+  margin-left: 10px;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.customizer_documentation_wrapper h2 .dashicons {
+    font-size: 13px;
+    width: 11px;
+}
+.pro_feature_wrapper {
+    opacity: 0.5;
+    position: relative;
+}
+.pro_feature_wrapper:before {
+    content: 'PRO Feature';
+    position: absolute;
+    top: 30px;
+    right: 10%;
+    font-size: 28px;
+    color: #F44336;
+    font-weight: bold;
+}
+li#accordion-section-pre-designed-sites .accordion-section-title,
+li#accordion-section-pre-designed-sites .accordion-section-title:hover{
+  background-color: #55616d !important;
+    border-left: 0 !important;
+    color: #fff !important;
+    background-image: linear-gradient(140deg,rgba(244,59,71,.73) 0,rgba(69,58,148,.8) 100%) !important;
+    display: block!important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 2.2;
+}
+li#accordion-section-pre-designed-sites .accordion-section-title:after{
+  color: #fff !important;
+}
+li#accordion-section-pre-designed-sites .accordion-section-title:before{
+  content: "\f547";
+}
+.sample_homepage_demo {
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+        margin-bottom: 10px;
+}
+.sample_homepage_demo .description {
+      position: absolute;
+    bottom: 0;
+    background: #777474;
+    width: 100%;
+    color: #fff !important;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+}
+.sample_homepage_demo .btn-wrapper {
+ width: 75%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  display: none;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+.sample_homepage_demo .btn-wrapper a {
+    background: #007cba;
+    padding: 5px 12px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto 5px;
+}
+#customize-control-pre-designed-sites label{
+  display: block;
+      pointer-events: auto;
+}
+.sample_homepage_demo:hover .btn-wrapper {
+    display: flex;
+}
+a.pro_feature_btn {
+    background: #4CAF50 !important;
+}
+.pro_feature_btn span.dashicons {
+    font-size: 18px;
+    height: auto;
+}
+.bizberg_install_plugin_notice ul li {
+    list-style-type: disc;
+}
+.bizberg_install_plugin_notice ul{
+  padding-left: 20px;
+}
+.bizberg_install_plugin_notice h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.bizberg_install_plugin_notice a.button {
+    margin: 20px 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.bizberg_customizer_custom_heading {
+    padding: 8px 14px;
+    background-color: #007cba;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+}
+
+/**
+* Start change design of section/panel to be same as core
+*/
+
+#accordion-section-base-typography h3.accordion-section-title,
+#accordion-section-headings h3.accordion-section-title,
+#accordion-section-eye_catching_blog_slider h3.accordion-section-title,
+#accordion-section-eye_catching_blog_featured_posts h3.accordion-section-title,
+#accordion-section-eye_catching_blog_popular_news h3.accordion-section-title,
+#accordion-section-eye_catching_blog_editor_choice h3.accordion-section-title,
+#accordion-section-bizberg_consulting_dark_featured_posts .accordion-section-title,
+#accordion-section-omg_blog_slider .accordion-section-title,
+#accordion-section-woocommerce_header_search .accordion-section-title,
+#accordion-section-woocommerce_account_menu .accordion-section-title,
+#accordion-section-next_level_blog_slider .accordion-section-title,
+#accordion-section-next_level_blog_featured_posts_section .accordion-section-title,
+#accordion-section-bizberg_shop_woo_cat_main_menu .accordion-section-title,
+#accordion-section-oh_my_blog_featured_posts .accordion-section-title,
+#accordion-section-artistic_blog_slider .accordion-section-title,
+#accordion-section-artistic_blog_featured_posts .accordion-section-title{
+    color: #555d66 !important;
+    background-color: #fff !important;
+    border-bottom: 1px solid #ddd !important;
+    border-left: 4px solid #fff !important;
+    transition: .15s color ease-in-out, .15s background-color ease-in-out, .15s border-color ease-in-out !important;
+}
+#accordion-section-base-typography h3.accordion-section-title:hover,
+#accordion-section-base-typography h3.accordion-section-title:focus,
+#accordion-section-headings h3.accordion-section-title:hover,
+#accordion-section-headings h3.accordion-section-title:focus,
+#accordion-section-eye_catching_blog_slider h3.accordion-section-title:hover,
+#accordion-section-eye_catching_blog_slider h3.accordion-section-title:focus,
+#accordion-section-eye_catching_blog_featured_posts h3.accordion-section-title:hover,
+#accordion-section-eye_catching_blog_featured_posts h3.accordion-section-title:focus,
+#accordion-section-eye_catching_blog_popular_news h3.accordion-section-title:hover,
+#accordion-section-eye_catching_blog_popular_news h3.accordion-section-title:focus,
+#accordion-section-eye_catching_blog_editor_choice h3.accordion-section-title:hover,
+#accordion-section-eye_catching_blog_editor_choice h3.accordion-section-title:focus,
+#accordion-section-bizberg_consulting_dark_featured_posts .accordion-section-title:hover,
+#accordion-section-bizberg_consulting_dark_featured_posts .accordion-section-title:focus,
+#accordion-section-omg_blog_slider .accordion-section-title:hover,
+#accordion-section-omg_blog_slider .accordion-section-title:focus,
+#accordion-section-woocommerce_header_search .accordion-section-title:hover,
+#accordion-section-woocommerce_header_search .accordion-section-title:focus,
+#accordion-section-woocommerce_account_menu .accordion-section-title:hover,
+#accordion-section-woocommerce_account_menu .accordion-section-title:focus,
+#accordion-section-next_level_blog_slider .accordion-section-title:hover,
+#accordion-section-next_level_blog_slider .accordion-section-title:focus,
+#accordion-section-next_level_blog_featured_posts_section .accordion-section-title:hover,
+#accordion-section-next_level_blog_featured_posts_section .accordion-section-title:focus,
+#accordion-section-bizberg_shop_woo_cat_main_menu .accordion-section-title:hover,
+#accordion-section-bizberg_shop_woo_cat_main_menu .accordion-section-title:focus,
+#accordion-section-oh_my_blog_featured_posts .accordion-section-title:hover,
+#accordion-section-oh_my_blog_featured_posts .accordion-section-title:focus,
+#accordion-section-artistic_blog_slider .accordion-section-title:hover,
+#accordion-section-artistic_blog_slider .accordion-section-title:focus,
+#accordion-section-artistic_blog_featured_posts .accordion-section-title:hover,
+#accordion-section-artistic_blog_featured_posts .accordion-section-title:focus{
+    color: #0073aa !important;
+    background: #f3f3f5 !important;
+    border-left-color: #0073aa !important;
+}
+#accordion-section-base-typography h3.accordion-section-title::after,
+#accordion-section-headings h3.accordion-section-title:after,
+#accordion-section-eye_catching_blog_slider h3.accordion-section-title:after,
+#accordion-section-eye_catching_blog_featured_posts h3.accordion-section-title:after,
+#accordion-section-eye_catching_blog_popular_news h3.accordion-section-title:after,
+#accordion-section-eye_catching_blog_editor_choice h3.accordion-section-title:after,
+#accordion-section-bizberg_consulting_dark_featured_posts .accordion-section-title:after,
+#accordion-section-omg_blog_slider .accordion-section-title:after,
+#accordion-section-woocommerce_header_search .accordion-section-title:after,
+#accordion-section-woocommerce_account_menu .accordion-section-title:after,
+#accordion-section-next_level_blog_slider .accordion-section-title:after,
+#accordion-section-next_level_blog_featured_posts_section .accordion-section-title:after,
+#accordion-section-bizberg_shop_woo_cat_main_menu .accordion-section-title:after,
+#accordion-section-oh_my_blog_featured_posts .accordion-section-title:after,
+#accordion-section-artistic_blog_slider .accordion-section-title:after,
+#accordion-section-artistic_blog_featured_posts .accordion-section-title:after{
+    color: #a0a5aa !important;
+}
+#accordion-section-base-typography h3.accordion-section-title:hover:after,
+#accordion-section-base-typography h3.accordion-section-title:focus:after,
+#accordion-section-headings h3.accordion-section-title:hover:after,
+#accordion-section-headings h3.accordion-section-title:focus:after,
+#accordion-section-eye_catching_blog_slider h3.accordion-section-title:hover:after,
+#accordion-section-eye_catching_blog_slider h3.accordion-section-title:focus:after,
+#accordion-section-eye_catching_blog_featured_posts h3.accordion-section-title:hover:after,
+#accordion-section-eye_catching_blog_featured_posts h3.accordion-section-title:focus:after,
+#accordion-section-eye_catching_blog_popular_news h3.accordion-section-title:hover:after,
+#accordion-section-eye_catching_blog_popular_news h3.accordion-section-title:focus:after,
+#accordion-section-eye_catching_blog_editor_choice h3.accordion-section-title:hover:after,
+#accordion-section-eye_catching_blog_editor_choice h3.accordion-section-title:focus:after,
+#accordion-section-bizberg_consulting_dark_featured_posts .accordion-section-title:focus:after,
+#accordion-section-bizberg_consulting_dark_featured_posts .accordion-section-title:hover:after,
+#accordion-section-omg_blog_slider .accordion-section-title:focus:after,
+#accordion-section-omg_blog_slider .accordion-section-title:hover:after,
+#accordion-section-woocommerce_header_search .accordion-section-title:focus:after,
+#accordion-section-woocommerce_header_search .accordion-section-title:hover:after,
+#accordion-section-woocommerce_account_menu .accordion-section-title:focus:after,
+#accordion-section-woocommerce_account_menu .accordion-section-title:hover:after,
+#accordion-section-next_level_blog_slider .accordion-section-title:focus:after,
+#accordion-section-next_level_blog_slider .accordion-section-title:hover:after,
+#accordion-section-next_level_blog_featured_posts_section .accordion-section-title:focus:after,
+#accordion-section-next_level_blog_featured_posts_section .accordion-section-title:hover:after,
+#accordion-section-bizberg_shop_woo_cat_main_menu .accordion-section-title:focus:after,
+#accordion-section-bizberg_shop_woo_cat_main_menu .accordion-section-title:hover:after,
+#accordion-section-oh_my_blog_featured_posts .accordion-section-title:focus:after,
+#accordion-section-oh_my_blog_featured_posts .accordion-section-title:hover:after,
+#accordion-section-artistic_blog_slider .accordion-section-title:focus:after,
+#accordion-section-artistic_blog_slider .accordion-section-title:hover:after,
+#accordion-section-artistic_blog_featured_posts .accordion-section-title:focus:after,
+#accordion-section-artistic_blog_featured_posts .accordion-section-title:hover:after{
+    color: #0073aa !important;
+}
+
+/**
+* End change design of section/panel to be same as core
+*/
+
+.bizberg_customizer_custom_heading_notice {
+    padding: 20px;
+    background: #fff;
+    border-left: 5px solid #FFC107;
+}
+
+#customize-control-primary_header_layout label {
+    width: 30%;
+    margin-right: 8px;
+}
+
+.upgrade_pro {
+    background: #87ceeb;
+    padding: 5px 20px 30px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+    font-size: 12px;
+    text-align: center;
+}
+.upgrade_pro p {
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.upgrade_pro a {
+    background: #FF5722;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 15px 8px;
+}
+li[id^="customize-control-upgrade_msg_"] {
+    pointer-events: auto;
+}
+.upgrade_pro a:hover,
+.upgrade_pro a:active,
+.upgrade_pro a:focus {
+    background: #ff3c00;
+    color: #fff;
+}
+
+#customize-control-frontpage_video_gradient_presets #input_frontpage_video_gradient_presets label {
+    width: 17%;
+    margin-bottom: 0;
+    margin-right: 7px;
+}

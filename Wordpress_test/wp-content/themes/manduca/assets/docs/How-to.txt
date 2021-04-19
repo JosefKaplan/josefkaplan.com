@@ -1,0 +1,70 @@
+This file is part of WordPress theme named Manduca - focus on accessibility.
+
+Copyright (C) 2015-2020  Zsolt Edelényi (ezs@web25.hu)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+in /assets/docs/licence.txt.  If not, see <https://www.gnu.org/licenses/>.
+
+********************************************************************************************
+
+See also: https://github.com/batyuvitez/manduca/wiki/
+
+********************************************************************************************
+
+How to ...
+
+
+
+... add new svg icons.
+      Use filter 'manduca_svg_icons' Input parameter is Manduca svg icons, and you can extend it with yours.
+      
+... change breadcrumb parameters
+      - copy breadcrumb-template file to the child theme's template-parts/header directory and change the parameters in it.
+      - or - if you are familiar with PHP programming: extend the breadcrumb class.
+      
+... add namespace in child theme in order to avoid nam confusions::
+      add the namesepace as a key to Manduca_Classloader. e.g 'Web25\\childtheme' => get_stylesheet_directory() .'/inc/'
+
+... use Collapsable Paragraph (accessible multi-level hide-show system) page template
+      - use <h2></h2> elements for titles of collapsable paragraph.
+      - Before first (h2) is not collapsable.
+
+... implement multi-level hide-show system on posts and other contents.
+            You can use in #wrapper (that is #primary and #secondary)
+            Enque the script. Example: page-templates/accordion.php
+            Use the following classes:
+            
+            *obligatory
+            js-to_expandmore  : this is the button (e.g. h2) which is the title of the collapsable part.
+            js-to_expand      : this is the hide/show part (div)
+            Elements that have expandmore and to_expand classes must be adjacent.   
+            
+            *optional
+            js-expandmore-all : this is a button to hide all and show all. 
+            is-opened         : part is visible when page has been loaded
+            Use keys: space or enter to hide/show,
+            Use escape to hide actual part.
+            
+            Detailed description see: https://a11y.nicolas-hoffmann.net/hide-show/
+
+...Use Adobe accessible megamenu (default until 20.7) instead of WAI menubar (since 20.7):
+      change the menu_type to 1  in template-parts/header/menu.php
+      
+... Add homepage navmenu item: Add http://home-placement to the menu item.
+      This string will be replaced with the home URL.
+      
+... Add accessible tooltip:
+      add the followint 2 attributes to element:
+            class="js-simple-tooltip"
+            data-simpletooltip-text="tooltip text"
+      @more: https://a11y.nicolas-hoffmann.net/simple-tooltip/

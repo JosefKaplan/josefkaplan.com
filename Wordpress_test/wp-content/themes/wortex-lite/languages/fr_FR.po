@@ -1,0 +1,352 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wortex Lite 1.2\n"
+"POT-Creation-Date: 2015-07-22 15:08+0100\n"
+"PO-Revision-Date: 2016-06-15 16:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: Iceable Themes\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:14
+msgid "404: Page Not Found"
+msgstr "404: Page Introuvable"
+
+#: ../404.php:18
+msgid "Page Not Found"
+msgstr "Page Introuvable"
+
+#: ../404.php:19 ../index.php:139 ../page.php:59 ../single.php:116
+#: ../page-template/full-width.php:59
+msgid "What you are looking for isn't here..."
+msgstr "Ce que vous cherchez n'est pas ici..."
+
+#: ../404.php:20
+msgid "Maybe a search will help ?"
+msgstr "Peut-être qu'une recherche pourrait vous aider ?"
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Cet article est protégé par un mot de passe. Veuillez entrer le mot de passe "
+"pour voir les commentaires."
+
+#: ../comments.php:19
+#, php-format
+msgid "One Response to %2$s"
+msgstr "Une réponse à %2$s"
+
+#: ../comments.php:29
+msgid "Older comments"
+msgstr "Commentaires précédents"
+
+#: ../comments.php:35
+msgid "Newer comments"
+msgstr "Commentaires suivants"
+
+#: ../comments.php:45
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: ../footer.php:23
+#, php-format
+msgid "Copyright &copy; %s %s."
+msgstr "Copyright &copy; %s %s."
+
+#: ../footer.php:25
+#, php-format
+msgid "Proudly powered by <a href=\"%s\" title=\"%s\">%s</a>."
+msgstr "Fièrement propulsé par <a href=\"%s\" title=\"%s\">%s</a>."
+
+#: ../footer.php:26
+msgid "https://wordpress.org/"
+msgstr "https://fr.wordpress.org/"
+
+#: ../footer.php:28
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../footer.php:31
+#, php-format
+msgid "Wortex design by <a href=\"%s\" title=\"%s\">Iceable Themes</a>."
+msgstr "Wortex design par <a href=\"%s\" title=\"%s\">Iceable Themes</a>."
+
+#: ../functions.php:115
+msgid "Default Sidebar"
+msgstr "Sidebar par défaut"
+
+#: ../functions.php:127
+msgid "Footer"
+msgstr "Pied de page"
+
+#: ../functions.php:223
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: ../index.php:17
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr "Résultat de la Recherche pour \"%s\""
+
+#: ../index.php:24
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag : %s"
+
+#: ../index.php:31
+#, php-format
+msgid "Category: %s"
+msgstr "Catégorie : %s"
+
+#: ../index.php:38
+#, php-format
+msgid "Daily archives: %s"
+msgstr "Archives journalières : %s"
+
+#: ../index.php:44
+#, php-format
+msgid "Monthly archives: %s"
+msgstr "Archives mensuelles : %s"
+
+#: ../index.php:49
+#, php-format
+msgid "Yearly archives: %s"
+msgstr "Archives annuelles : %s"
+
+#: ../index.php:56
+#, php-format
+msgid "Author archives: %s"
+msgstr "Archives de l'auteur : %s"
+
+#: ../index.php:93 ../single.php:22
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tout les articles de %s"
+
+#: ../index.php:96 ../single.php:25
+msgid "by"
+msgstr "par"
+
+#: ../index.php:103 ../single.php:29
+msgid "0 Comment"
+msgstr "0 Commentaire"
+
+#: ../index.php:103 ../single.php:29
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: ../index.php:103 ../single.php:29
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: ../index.php:103 ../single.php:29
+msgid "Comments Off"
+msgstr "Commentaires Off"
+
+#: ../index.php:107 ../page.php:44 ../single.php:32
+#: ../page-template/full-width.php:44
+msgid "Edit"
+msgstr "Éditer"
+
+#: ../index.php:131 ../index.php:138 ../page.php:58 ../single.php:115
+#: ../page-template/full-width.php:58
+msgid "Not Found"
+msgstr "Introuvable"
+
+#: ../index.php:132
+#, php-format
+msgid "Your search for \"%s\" did not return any result."
+msgstr "Votre recherche de \"%s\" n'a retourné aucun résultat."
+
+#: ../index.php:133
+msgid "Would you like to try another search ?"
+msgstr "Voulez-vous essayer une nouvelle recherche ?"
+
+#: ../index.php:148
+msgid "Previous Posts"
+msgstr "Articles précédents"
+
+#: ../index.php:151
+msgid "Next Posts"
+msgstr "Articles suivants"
+
+#: ../page.php:32 ../single.php:61 ../page-template/full-width.php:32
+msgid "Pages:"
+msgstr "Pages :"
+
+#: ../page.php:37 ../single.php:66 ../page-template/full-width.php:37
+msgid "Next page"
+msgstr "Page suivante"
+
+#: ../page.php:38 ../single.php:67 ../page-template/full-width.php:38
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: ../sidebar.php:15
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: ../sidebar.php:20
+msgid "Archives"
+msgstr "Archives"
+
+#: ../sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: ../single.php:73
+msgid "Tags"
+msgstr "Tags"
+
+#: ../single.php:79 ../single.php:102
+msgid "Next Post"
+msgstr "Article suivant"
+
+#: ../single.php:82 ../single.php:105
+msgid "Previous Post"
+msgstr "Article précédent"
+
+#: ../single.php:95
+msgid "Previous Image"
+msgstr "Image précédente"
+
+#: ../single.php:98
+msgid "Next Image"
+msgstr "Image suivante"
+
+#: ../inc/customizer/customizer.php:18
+msgid "Background"
+msgstr "Image de fond"
+
+#: ../inc/customizer/customizer.php:22
+msgid "Main Layout"
+msgstr "Mise en page"
+
+#: ../inc/customizer/customizer.php:27
+msgid "Logo & Favicon"
+msgstr "Logo & Favicon"
+
+#: ../inc/customizer/customizer.php:32
+msgid "Blog Settings"
+msgstr "Paramètres du blog"
+
+#: ../inc/customizer/customizer.php:37
+msgid "Misc"
+msgstr "Divers"
+
+#: ../inc/customizer/customizer.php:42
+msgid "More"
+msgstr "Plus"
+
+#: ../inc/customizer/customizer.php:55 ../inc/customizer/customizer.php:107
+msgid "Blog Index Content"
+msgstr "Contenu de la page principale du blog"
+
+#: ../inc/customizer/customizer.php:60
+msgid "Wide"
+msgstr "Large"
+
+#: ../inc/customizer/customizer.php:61
+msgid "Boxed"
+msgstr "Encadrée"
+
+#: ../inc/customizer/customizer.php:75
+msgid "Upload your logo"
+msgstr "Transférez votre logo"
+
+#: ../inc/customizer/customizer.php:76
+msgid "If no logo is uploaded, the site title will be displayed instead."
+msgstr "Si aucun logo n'est défini, le nom de site sera affiché à la place."
+
+#: ../inc/customizer/customizer.php:91
+msgid "Upload a custom favicon"
+msgstr "Transférez un favicon personnalisé."
+
+#: ../inc/customizer/customizer.php:92
+msgid ""
+"Set your favicon. 16x16 or 32x32 pixels is recommended. PNG (recommended), "
+"GIF, or ICO."
+msgstr ""
+"Définissez votre favicon. 16x16 ou 32x32 pixels. PNG (recommandé), GIF ou "
+"ICO."
+
+#: ../inc/customizer/customizer.php:112
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: ../inc/customizer/customizer.php:113
+msgid "Full content"
+msgstr "Contenu complet"
+
+#: ../inc/customizer/customizer.php:127
+msgid "Responsive Mode"
+msgstr "Mode \"Responsive\""
+
+#: ../inc/customizer/customizer.php:132 ../inc/customizer/customizer.php:152
+#: ../inc/customizer/customizer.php:171 ../inc/customizer/customizer.php:190
+#: ../inc/customizer/customizer.php:209
+msgid "On"
+msgstr "On"
+
+#: ../inc/customizer/customizer.php:133 ../inc/customizer/customizer.php:153
+#: ../inc/customizer/customizer.php:172 ../inc/customizer/customizer.php:191
+#: ../inc/customizer/customizer.php:210
+msgid "Off"
+msgstr "Off"
+
+#: ../inc/customizer/customizer.php:147
+msgid "Display header on Homepage"
+msgstr "Afficher l'image d'en-tête personnalisée sur la page d'accueil"
+
+#: ../inc/customizer/customizer.php:166
+msgid "Display header on Blog Index"
+msgstr ""
+"Afficher l'image d'en-tête personnalisée sur la page principale du blog"
+
+#: ../inc/customizer/customizer.php:185
+msgid "Display header on Single Posts"
+msgstr "Afficher l'image d'en-tête personnalisée sur les pages d'articles"
+
+#: ../inc/customizer/customizer.php:204
+msgid "Display header on Pages"
+msgstr "Afficher l'image d'en-tête personnalisée sur les pages"
+
+#: ../inc/customizer/customizer.php:224
+msgid "Get Wortex Pro"
+msgstr "Obtenir Wortex Pro !"
+
+#: ../inc/customizer/customizer.php:225
+msgid ""
+"Unleash the full potential of Wortex with tons of additional settings, "
+"advanced features and premium support."
+msgstr ""
+"Profitez de tout le potentiel de Wortex avec de nombreux paramètres de "
+"configuration, des fonctionnalités avancées et l'accès au forum de support "
+"premium (en anglais uniquement)."
+
+#: ../inc/customizer/customizer.php:241
+msgid "Wortex Lite support forums"
+msgstr "Forum d'aide de Wortex Lite (en anglais uniquement)"
+
+#: ../inc/customizer/customizer.php:242
+msgid "Have a question? Need help?"
+msgstr "Une question ? Besoin d'aide ?"
+
+#: ../inc/customizer/customizer.php:258
+msgid "Rate Wortex Lite"
+msgstr "Notez Wortex Lite"
+
+#: ../inc/customizer/customizer.php:259
+msgid "Like this theme? We'd love to hear your feedback!"
+msgstr "Vous aimez ce thème ? Nous serions ravi d'entendre vos avis !"
+
+#: ../inc/customizer/customizer.php:284
+msgid "Upgrade to Wortex Pro!"
+msgstr "Mettez à jour vers Wortex Pro !"

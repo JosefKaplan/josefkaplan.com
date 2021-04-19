@@ -1,0 +1,78 @@
+.user_sticky_note{
+	padding: 0 15px 15px;
+}
+
+.user_sticky_note .button{
+	width: 100%;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.admin-pro-feature-list li{
+ 
+    border-bottom: 1px solid #DBDBDB;
+    margin: 0;
+    padding: 10px 0px;
+    line-height: 1;
+}
+.admin-pro-feature-list li:before{
+     content: "\f345";
+    font: 400 20px/1 dashicons;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+ 
+ }
+.admin-pro-feature-list span{
+     display: inline-block;
+    width: 90%;
+    vertical-align: top;}
+.admin-pro-feature-list{
+    margin: 0 5px;
+}
+.buynow{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;}
+
+.upgrade-pro{
+    background-color: #e24545;
+    color: #FFF !important;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 1;
+    display: block;
+    margin-top: 6px;
+    text-align: center;
+}
+
+/** Remove Widget Image **/
+.remove-image {
+    border: 1px solid #a61818;
+    padding: 4px 9px;
+    border-radius: 50%;
+    background: #d12424;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+/**
+* Upgred To Pro
+*/
+.control-section-scrollme-pro{
+ display: block !important;
+}
+#customize-theme-controls .control-section-scrollme-pro h3.accordion-section-title {
+   background: #0073aa !important;
+   color: #FFF !important;
+   border: 0;
+}
+.control-section-scrollme-pro .accordion-section-title .button {
+   margin-top: -4px;
+   margin-left: 8px;
+   border: none;
+   color: #fff;
+   background: #28c503;
+   box-shadow: none;
+}

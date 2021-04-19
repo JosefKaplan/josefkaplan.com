@@ -1,0 +1,38 @@
+== Release notes ==
+
+1.0
+    -dated April 2015.
+    -developed on the basis of twenty twelve.
+
+2.0
+    -dated: December 1, 2015
+    -Uploaded to repository
+    -fixed all errors find in theme review
+
+2.0.4
+    - date: December 3,
+    - Approved by the theme reviewer
+
+2.0.5
+    dd: December 4, 2015
+    -image folder deleted (not used since 2.0.1)
+    -add "continue reading" ling to the more-tag case (function.php)
+
+2.0.6
+    dd: December 5, 2015
+    -toggled menu text has a wrapping <span>tag
+    -skip link located to the very beginning of the page
+
+2.0.7
+    dd: December 10, 2015
+    - add optional footer navigation to the right (function.php, footer.php)
+    
+2.0.8 and 2.0.9
+    dd: December 12, 2015
+    - fixing based on wp-theme admin review (https://themes.trac.wordpress.org/ticket/28960)
+    
+2.0.10
+    dd: December 18, 2015
+    - style.css: set equal margin for sidebar and primary + border to primary
+    - sitemap css error: sidebar was below the primary. Fixed
+    

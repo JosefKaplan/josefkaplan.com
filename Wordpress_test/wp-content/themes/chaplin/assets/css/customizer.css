@@ -1,0 +1,53 @@
+/* --------------------------------------------------------------------------------------------- */
+/*	Color Scheme Control
+/* --------------------------------------------------------------------------------------------- */
+
+
+.chaplin-color-scheme-control .radio-button-labels {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: -15px 0 0 -15px;
+	padding-top: 10px;
+}
+
+.chaplin-color-scheme-control .radio-button-label {
+	display: block;
+	line-height: 1;
+	margin: 15px 0 0 15px;
+	width: calc( 50% - 15px );
+}
+
+.chaplin-color-scheme-control .radio-button-label > input {
+	position: absolute;
+		left: -9999px;
+}
+
+.chaplin-color-scheme-control .radio-button-label > .color-scheme-preview {
+	border: 2px solid #e1e1e3;
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: flex;
+	justify-content: stretch;
+	margin: 0;
+	overflow: hidden;
+	transition: border-color .15s linear;
+}
+
+.chaplin-color-scheme-control .radio-button-label > .color-scheme-preview .color {
+	height: 80px;
+	width: 100%;
+}
+
+.chaplin-color-scheme-control .radio-button-label-text {
+	display: block;
+	font-weight: 500;
+	margin-top: 6px;
+}
+
+.chaplin-color-scheme-control .radio-button-label:hover > .color-scheme-preview,
+.chaplin-color-scheme-control .radio-button-label > input:focus ~ .color-scheme-preview,
+.chaplin-color-scheme-control .radio-button-label > input:checked + .color-scheme-preview {
+	border-color: #2885bb;
+}

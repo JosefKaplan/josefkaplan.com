@@ -1,0 +1,33 @@
+/*
+Theme Name: Mantranews
+Description: Used to style Admin Notices
+*/
+
+.mantranews-message {
+	overflow: hidden;
+	position: relative;
+	border-left-color: #2ea2cc !important;
+}
+
+.mantranews-message a.button-primary,
+.mantranews-message a.button-secondary {
+	text-decoration: none !important;
+}
+
+.mantranews-message a.mantranews-message-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 15px 10px 21px;
+	font-size: 13px;
+	line-height: 1.23076923;
+	text-decoration: none;
+}
+
+.mantranews-message a.mantranews-message-close:before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}

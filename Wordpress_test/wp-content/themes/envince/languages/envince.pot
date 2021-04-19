@@ -1,0 +1,911 @@
+# Copyright (C) 2021 ThemeGrill
+# This file is distributed under the GNU General Public License v3.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Envince 1.2.9\n"
+"Report-Msgid-Bugs-To: themegrill@gmail.com\n"
+"POT-Creation-Date: 2021-02-25 03:58:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ThemeGrill Team <themegrill@gmail.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: comment/comment.php:7 comment/ping.php:6
+msgid "%s ago"
+msgstr ""
+
+#: comment/comment.php:8 comment/ping.php:7 content/link.php:43
+#: content/quote.php:31 content/status.php:49
+msgid "Permalink"
+msgstr ""
+
+#: content/aside.php:28 content/audio.php:30 content/chat.php:36
+#: content/content.php:31 content/gallery.php:28 content/image.php:30
+#: content/link.php:28 content/quote.php:17 content/status.php:25
+#: content/video.php:30
+msgid "Posted in %s"
+msgstr ""
+
+#: content/aside.php:29 content/audio.php:31 content/chat.php:37
+#: content/content.php:32 content/gallery.php:29 content/image.php:31
+#: content/link.php:29 content/quote.php:18 content/status.php:26
+#: content/video.php:31
+msgid "Tagged %s"
+msgstr ""
+
+#: content/attachment-audio.php:28
+msgid "Audio Info"
+msgstr ""
+
+#: content/attachment-image.php:22
+msgid "Sizes: %s"
+msgstr ""
+
+#: content/attachment-image.php:60
+msgid "Image Info"
+msgstr ""
+
+#: content/attachment-image.php:63
+msgid "Dimensions:"
+msgstr ""
+
+#: content/attachment-image.php:64
+msgid "Date:"
+msgstr ""
+
+#: content/attachment-image.php:65
+msgid "Camera:"
+msgstr ""
+
+#: content/attachment-image.php:66
+msgid "Aperture:"
+msgstr ""
+
+#: content/attachment-image.php:67
+msgid "Focal Length:"
+msgstr ""
+
+#: content/attachment-image.php:67
+msgid "%s mm"
+msgstr ""
+
+#: content/attachment-image.php:68
+msgid "ISO:"
+msgstr ""
+
+#: content/attachment-image.php:69
+msgid "Shutter Speed:"
+msgstr ""
+
+#: content/attachment-image.php:69
+msgid "%s sec"
+msgstr ""
+
+#: content/attachment-image.php:70
+msgid "Type:"
+msgstr ""
+
+#: content/attachment-image.php:71
+msgid "Name:"
+msgstr ""
+
+#: content/attachment-image.php:72
+msgid "Mime Type:"
+msgstr ""
+
+#: content/attachment-image.php:81
+msgid "Gallery"
+msgstr ""
+
+#: content/attachment-video.php:28
+msgid "Video Info"
+msgstr ""
+
+#: content/error.php:4
+msgid "Nothing found"
+msgstr ""
+
+#: content/error.php:8
+msgid "Apologies, but no entries were found."
+msgstr ""
+
+#: content/gallery.php:56
+msgid "This gallery contains %s item."
+msgid_plural "This gallery contains %s items."
+msgstr[0] ""
+msgstr[1] ""
+
+#: content/related-posts.php:6
+msgid "You May Also Like"
+msgstr ""
+
+#: footer.php:39
+#. Translators: 1 is current year, 2 is site name/link, 3 is WordPress
+#. name/link, and 4 is theme name/link.
+msgid ""
+"Copyright &#169; %1$s %2$s. All rights reserved.Theme: %4$s by ThemeGrill. "
+"Powered by %3$s"
+msgstr ""
+
+#: header.php:19
+msgid "Skip to content"
+msgstr ""
+
+#: inc/admin/class-envince-admin.php:38
+msgid "Processing..."
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:41
+#. translators: %s: Theme Name.
+msgid "%s Options"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:68
+#. translators: %s: Theme version.
+msgid "Envince %s"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:77
+#. translators: %s: Theme Name.
+msgid "Welcome to %s!"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:83
+#. translators: %s: Theme Name.
+msgid "Important links to get you started with %s"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:89
+msgid "Get Started"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:92
+msgid "Learn Basics"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:97
+msgid "Next Steps"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:99
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:100
+msgid "Starter Demos"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:101
+msgid "Premium Version"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:106
+msgid "Further Actions"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:108
+#: inc/admin/class-envince-theme-review-notice.php:95
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/admin/class-envince-dashboard.php:109
+msgid "Leave a review"
+msgstr ""
+
+#: inc/admin/class-envince-notice.php:58 inc/admin/class-envince-notice.php:77
+#: inc/admin/class-envince-welcome-notice.php:76
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/class-envince-notice.php:62 inc/admin/class-envince-notice.php:81
+#: inc/admin/class-envince-welcome-notice.php:80
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/class-envince-theme-review-notice.php:68
+#. Translators: %1$s current user display name.
+msgid ""
+"Howdy, %1$s! It seems that you have been using this theme for more than 15 "
+"days. We hope you are happy with everything that the theme has to offer. If "
+"you can spare a minute, please help us by leaving a 5-star review on "
+"WordPress.org.  By spreading the love, we can continue to develop new "
+"amazing features in the future, for free!"
+msgstr ""
+
+#: inc/admin/class-envince-theme-review-notice.php:80
+msgid "Sure"
+msgstr ""
+
+#: inc/admin/class-envince-theme-review-notice.php:85
+#: inc/admin/class-envince-upgrade-notice.php:95
+msgid "Maybe later"
+msgstr ""
+
+#: inc/admin/class-envince-theme-review-notice.php:90
+msgid "I already did"
+msgstr ""
+
+#: inc/admin/class-envince-upgrade-notice.php:90
+#. Translators: %1$s current user display name., %2$s this theme name., %3$s
+#. discount coupon code., %4$s discount percentage.
+msgid "Upgrade to pro"
+msgstr ""
+
+#: inc/admin/class-envince-upgrade-notice.php:100
+msgid "Got pre sales queries?"
+msgstr ""
+
+#: inc/admin/class-envince-welcome-notice.php:25
+msgid "Get started with Envince"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Envince"
+msgstr ""
+
+#: inc/admin/class-envince-welcome-notice.php:53
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+msgid ""
+"Welcome! Thank you for choosing Envince! To fully take advantage of the "
+"best our theme can offer please make sure you visit our %1$swelcome "
+"page%2$s."
+msgstr ""
+
+#: inc/admin/class-envince-welcome-notice.php:62
+msgid ""
+"Clicking the button will install and activate the ThemeGrill demo importer "
+"plugin."
+msgstr ""
+
+#: inc/admin/customize.php:112
+msgid "View PRO version"
+msgstr ""
+
+#: inc/admin/customize.php:133
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/admin/customize.php:152
+msgid "Display Site Tagline"
+msgstr ""
+
+#: inc/admin/customize.php:162 library/admin/meta-box-post-layout.php:35
+#: library/inc/functions-customize.php:72
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/customize.php:186
+msgid "Layout Sidebar"
+msgstr ""
+
+#: inc/admin/customize.php:207
+msgid "Layout Style"
+msgstr ""
+
+#: inc/admin/customize.php:232
+msgid "Layout Width"
+msgstr ""
+
+#: inc/admin/customize.php:256
+msgid "Choose the number of widget area you want in footer"
+msgstr ""
+
+#: inc/admin/customize.php:260
+msgid "1 Footer Widget Area"
+msgstr ""
+
+#: inc/admin/customize.php:261
+msgid "2 Footer Widget Area"
+msgstr ""
+
+#: inc/admin/customize.php:262
+msgid "3 Footer Widget Area"
+msgstr ""
+
+#: inc/admin/customize.php:263
+msgid "4 Footer Widget Area"
+msgstr ""
+
+#: inc/admin/customize.php:272
+msgid "Header Info"
+msgstr ""
+
+#: inc/admin/customize.php:293
+msgid "Phone Number"
+msgstr ""
+
+#: inc/admin/customize.php:322
+msgid "Email"
+msgstr ""
+
+#: inc/admin/customize.php:351
+msgid "Location"
+msgstr ""
+
+#: inc/admin/customize.php:370
+msgid "Category Color Options"
+msgstr ""
+
+#: inc/admin/customize.php:372
+msgid "Change the color of each category items as you want."
+msgstr ""
+
+#: inc/admin/customize.php:380
+msgid "Category Color Settings"
+msgstr ""
+
+#: inc/admin/customize.php:411
+msgid "%s"
+msgstr ""
+
+#: inc/admin/customize.php:426
+msgid "Additional Options"
+msgstr ""
+
+#: inc/admin/customize.php:432
+msgid "Related Posts"
+msgstr ""
+
+#: inc/admin/customize.php:442
+msgid "Check to activate the related posts"
+msgstr ""
+
+#: inc/admin/customize.php:453
+msgid "Related Posts Must Be Shown As:"
+msgstr ""
+
+#: inc/admin/customize.php:457
+msgid "Related Posts By Categories"
+msgstr ""
+
+#: inc/admin/customize.php:458
+msgid "Related Posts By Tags"
+msgstr ""
+
+#: inc/admin/customize.php:466
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: inc/admin/customize.php:487
+msgid "Remove Featured Image from Single Post"
+msgstr ""
+
+#: inc/admin/metabox.php:24
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only "
+"reflects if page Template is set as Default Template.)"
+msgstr ""
+
+#: inc/admin/metabox.php:30
+msgid "Select layout for this specific Post only"
+msgstr ""
+
+#: inc/admin/metabox.php:43
+msgid "Default Layout Set in"
+msgstr ""
+
+#: inc/admin/metabox.php:43
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/admin/metabox.php:49
+msgid "1 Column - Full Width"
+msgstr ""
+
+#: inc/admin/metabox.php:55
+msgid "2 Column - Left Sidebar"
+msgstr ""
+
+#: inc/admin/metabox.php:61
+msgid "2 Column - Right Sidebar"
+msgstr ""
+
+#: inc/admin/metabox.php:67
+msgid "3 Column - Sidebar Sidebar Content"
+msgstr ""
+
+#: inc/admin/metabox.php:73
+msgid "3 Column - Sidebar Content Sidebar"
+msgstr ""
+
+#: inc/admin/metabox.php:79
+msgid "3 Column - Content Sidebar Sidebar"
+msgstr ""
+
+#: inc/functions/custom-colors.php:262
+msgid "Primary Color"
+msgstr ""
+
+#: inc/functions/custom-css.php:124
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme.php:95
+msgid ""
+"Main Sidebar used in both two column and three column layout. Generally "
+"present in Right section."
+msgstr ""
+
+#: inc/theme.php:103
+msgid "Secondary Sidebar used in three column layout only."
+msgstr ""
+
+#: inc/theme.php:111
+msgid ""
+"Header Sidebar located in the right section beside the site title and above "
+"the menu."
+msgstr ""
+
+#: inc/theme.php:119
+msgid "Magazine Template Content Area Sidebar."
+msgstr ""
+
+#: inc/theme.php:127
+msgid "Magazine Template Top Sidebar."
+msgstr ""
+
+#: inc/theme.php:135
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: inc/theme.php:143
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: inc/theme.php:151
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: inc/theme.php:159
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:11
+msgid "Add your Advertisement here"
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:19
+msgid "TG: Advertisement"
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:41
+#: inc/widgets/envince-imagegrid-posts.php:39
+#: inc/widgets/envince-onecol-posts.php:39
+#: inc/widgets/envince-twocol-posts.php:39
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:44
+msgid "Add your Advertisement 728x90 Images Here"
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:46
+msgid "Advertisement Image Link "
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:50
+msgid "Advertisement Image "
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:59
+msgid "Choose an image"
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:59
+msgid "Use image"
+msgstr ""
+
+#: inc/widgets/envince-728x90-advertisement-widget.php:59
+msgid "Select an Image"
+msgstr ""
+
+#: inc/widgets/envince-featured-posts-slider-widget.php:11
+msgid ""
+"Display latest posts or posts of specific category, which will be used as "
+"the slider."
+msgstr ""
+
+#: inc/widgets/envince-featured-posts-slider-widget.php:17
+msgid "TG: Featured Post Slider"
+msgstr ""
+
+#: inc/widgets/envince-featured-posts-slider-widget.php:32
+#: inc/widgets/envince-imagegrid-posts.php:46
+#: inc/widgets/envince-onecol-posts.php:46
+#: inc/widgets/envince-twocol-posts.php:46
+msgid "Number of posts to display:"
+msgstr ""
+
+#: inc/widgets/envince-featured-posts-slider-widget.php:37
+#: inc/widgets/envince-imagegrid-posts.php:51
+#: inc/widgets/envince-onecol-posts.php:51
+#: inc/widgets/envince-twocol-posts.php:51
+msgid "Show latest Posts"
+msgstr ""
+
+#: inc/widgets/envince-featured-posts-slider-widget.php:39
+#: inc/widgets/envince-imagegrid-posts.php:53
+#: inc/widgets/envince-onecol-posts.php:53
+#: inc/widgets/envince-twocol-posts.php:52
+msgid "Show posts from a category"
+msgstr ""
+
+#: inc/widgets/envince-featured-posts-slider-widget.php:44
+#: inc/widgets/envince-imagegrid-posts.php:58
+#: inc/widgets/envince-onecol-posts.php:58
+#: inc/widgets/envince-twocol-posts.php:56
+msgid "Select category"
+msgstr ""
+
+#: inc/widgets/envince-featured-posts-slider-widget.php:57
+#: inc/widgets/envince-imagegrid-posts.php:69
+#: inc/widgets/envince-onecol-posts.php:69
+#: inc/widgets/envince-twocol-posts.php:62
+msgid "Check to display the posts from child category of the chosen category."
+msgstr ""
+
+#: inc/widgets/envince-imagegrid-posts.php:11
+msgid "Display latest posts or posts of specific category in image grid."
+msgstr ""
+
+#: inc/widgets/envince-imagegrid-posts.php:19
+msgid "TG: Image Grid Post Widget"
+msgstr ""
+
+#: inc/widgets/envince-imagegrid-posts.php:43
+#: inc/widgets/envince-onecol-posts.php:43
+#: inc/widgets/envince-twocol-posts.php:43
+msgid "Description"
+msgstr ""
+
+#: inc/widgets/envince-onecol-posts.php:11
+msgid "Display latest posts or posts of specific category in one column layout."
+msgstr ""
+
+#: inc/widgets/envince-onecol-posts.php:19
+msgid "TG: One Column Featured Post Widget"
+msgstr ""
+
+#: inc/widgets/envince-twocol-posts.php:11
+msgid "Display latest posts or posts of specific category in two column layout."
+msgstr ""
+
+#: inc/widgets/envince-twocol-posts.php:19
+msgid "TG: Two Column Featured Post Widget"
+msgstr ""
+
+#: library/admin/meta-box-post-style.php:35
+msgid "Style"
+msgstr ""
+
+#: library/admin/meta-box-post-template.php:41
+msgid "Template"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:244
+msgid "Browse:"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:246
+msgid "Home"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:247 library/inc/template-general.php:422
+msgid "404 Not Found"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:248 library/inc/template-general.php:218
+msgid "Archives"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:250 library/inc/template-general.php:400
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:252
+#. Translators: %s is the page number.
+msgid "Page %s"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:254 library/inc/template-general.php:354
+#. Translators: Minute archive title. %s is the minute time format.
+msgid "Minute %s"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:256
+#. Translators: Weekly archive title. %s is the week date format.
+msgid "Week %s"
+msgstr ""
+
+#: library/inc/class-media-meta.php:245 library/inc/template-media.php:172
+#. Translators: Media dimensions - 1 is width and 2 is height.
+msgid "%1$s &#215; %2$s"
+msgstr ""
+
+#: library/inc/functions-customize.php:95
+msgid "Global Layout"
+msgstr ""
+
+#: library/inc/functions-head.php:140
+#. Translators: 1 is the page title. 2 is the page number.
+msgid "%1$s Page %2$s"
+msgstr ""
+
+#: library/inc/functions-utility.php:94
+#. Translators: Used as a placeholder for untitled posts on non-singular views.
+msgid "(Untitled)"
+msgstr ""
+
+#: library/inc/template-general.php:55
+msgid "https://wordpress.org"
+msgstr ""
+
+#: library/inc/template-general.php:55
+msgid "WordPress"
+msgstr ""
+
+#: library/inc/template-general.php:286
+#. Translators: 1 is the week number and 2 is the year.
+msgid "Week %1$s of %2$s"
+msgstr ""
+
+#: menu/breadcrumbs.php:10
+msgid "You are here:"
+msgstr ""
+
+#: misc/comments-error.php:6
+#. Translators: The two %s are placeholders for HTML. The order can't be
+#. changed.
+msgid "Comments are closed, but %strackbacks%s and pingbacks are open."
+msgstr ""
+
+#: misc/comments-error.php:13
+msgid "Comments are closed."
+msgstr ""
+
+#: misc/comments-nav.php:5
+msgid "Comments Navigation"
+msgstr ""
+
+#: misc/comments-nav.php:11
+#. Translators: Comments page numbers. 1 is current page and 2 is total pages.
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: misc/loop-nav.php:4
+msgid "Previous Post: %link"
+msgstr ""
+
+#: misc/loop-nav.php:5
+msgid "Next Post: %link"
+msgstr ""
+
+#: sidebar/primary.php:17 sidebar/secondary.php:17
+msgid "Example Widget"
+msgstr ""
+
+#: sidebar/primary.php:19
+#. Translators: The %s are placeholders for HTML, so the order can't be
+#. changed.
+msgid ""
+"This is an example widget to show how the primary sidebar looks by default. "
+"You can add custom widgets from the %swidgets screen%s in the admin."
+msgstr ""
+
+#: sidebar/secondary.php:19
+#. Translators: The %s are placeholders for HTML, so the order can't be
+#. changed.
+msgid ""
+"This is an example widget to show how the secondary sidebar looks by "
+"default. You can add custom widgets from the %swidgets screen%s in the "
+"admin."
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themegrill.com/themes/envince/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Envince is bootstrap 3 powered magazine wp theme to make your site look "
+"good. Create powerful magazine site with drag and drop editing features. "
+"Get free support here: "
+"https://themegrill.com/support-forum/forum/envince-free/ and check demo "
+"here: https://demo.themegrill.com/envince"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeGrill"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themegrill.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Magazine"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Pagebuilder"
+msgstr ""
+
+#: inc/theme.php:77
+msgctxt "nav menu location"
+msgid "Primary"
+msgstr ""
+
+#: inc/theme.php:78
+msgctxt "nav menu location"
+msgid "Header Social"
+msgstr ""
+
+#: inc/theme.php:79
+msgctxt "nav menu location"
+msgid "Footer Social"
+msgstr ""
+
+#: inc/theme.php:94
+msgctxt "sidebar"
+msgid "Primary"
+msgstr ""
+
+#: inc/theme.php:102
+msgctxt "sidebar"
+msgid "Secondary"
+msgstr ""
+
+#: inc/theme.php:110
+msgctxt "sidebar"
+msgid "Header"
+msgstr ""
+
+#: inc/theme.php:118
+msgctxt "sidebar"
+msgid "Mag: Content Section"
+msgstr ""
+
+#: inc/theme.php:126
+msgctxt "sidebar"
+msgid "Mag: Top Section"
+msgstr ""
+
+#: inc/theme.php:134
+msgctxt "sidebar"
+msgid "Footer 1"
+msgstr ""
+
+#: inc/theme.php:142
+msgctxt "sidebar"
+msgid "Footer 2"
+msgstr ""
+
+#: inc/theme.php:150
+msgctxt "sidebar"
+msgid "Footer 3"
+msgstr ""
+
+#: inc/theme.php:158
+msgctxt "sidebar"
+msgid "Footer 4"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:708 library/inc/template-general.php:376
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:725 library/inc/template-general.php:354
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:742 library/inc/template-general.php:330
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:758 library/ext/breadcrumb-trail.php:787
+#: library/ext/breadcrumb-trail.php:814 library/ext/breadcrumb-trail.php:841
+#: library/ext/breadcrumb-trail.php:1176 library/inc/template-general.php:262
+#: library/inc/template-general.php:286
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:759 library/ext/breadcrumb-trail.php:815
+#: library/ext/breadcrumb-trail.php:1180
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:760 library/ext/breadcrumb-trail.php:1184
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: library/inc/template-general.php:308
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: library/ext/breadcrumb-trail.php:788 library/inc/template-general.php:286
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: library/inc/functions-attr.php:202
+#. Translators: The %s is the sidebar name. This is used for the 'aria-label'
+#. attribute.
+msgctxt "sidebar aria label"
+msgid "%s Sidebar"
+msgstr ""
+
+#: library/inc/functions-attr.php:235
+#. Translators: The %s is the menu name. This is used for the 'aria-label'
+#. attribute.
+msgctxt "nav menu aria label"
+msgid "%s Menu"
+msgstr ""
+
+#: library/inc/functions-attr.php:476
+#. Translators: Post date/time "title" attribute.
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: library/inc/functions-attr.php:601
+#. Translators: Comment date/time "title" attribute.
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: library/inc/functions-layouts.php:51
+#. Translators: Default theme layout option.
+msgctxt "theme layout"
+msgid "Default"
+msgstr ""
+
+#: library/inc/template-post.php:219
+#. Translators: Separates tags, categories, etc. when displaying a post.
+msgctxt "taxonomy terms separator"
+msgid ", "
+msgstr ""
+
+#: misc/comments-nav.php:7
+msgctxt "comments navigation"
+msgid "&larr; Previous"
+msgstr ""
+
+#: misc/comments-nav.php:14
+msgctxt "comments navigation"
+msgid "Next &rarr;"
+msgstr ""
+
+#: misc/loop-nav.php:12
+msgctxt "posts navigation"
+msgid "&larr; Previous"
+msgstr ""
+
+#: misc/loop-nav.php:13
+msgctxt "posts navigation"
+msgid "Next &rarr;"
+msgstr ""
+
+#: sidebar/primary.php:5 sidebar/secondary.php:5
+#. Translators: %s is the sidebar name. This is the sidebar title shown to
+#. screen readers.
+msgctxt "sidebar title"
+msgid "%s Sidebar"
+msgstr ""

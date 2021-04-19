@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+Mantranews Block Column
+--------------------------------------------------------------*/
+
+.home-primary-wrapper {
+  .mantranews_block_column {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    width: 47%;
+    margin-left: 3%;
+  }
+  .mantranews_block_column-wrap {
+    margin-left: -3%;
+  }
+}
+
+.home-secondary-wrapper .mantranews_block_column {
+  width: 100%;
+  margin-left: 0;
+}
+
+.mantranews_block_column .single-post-wrapper.primary-post {
+  margin-bottom: 25px;
+}
+
+.home-primary-wrapper .mantranews_782x90_banner {
+  margin: 20px 0 0;
+  text-align: center;
+}

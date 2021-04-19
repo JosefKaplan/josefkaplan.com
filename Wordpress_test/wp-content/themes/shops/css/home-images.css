@@ -1,0 +1,35 @@
+.all-home-imges {	
+	text-align: center;
+	width: 100%;
+}
+
+.all-home-imges .img-all-top {
+	position: relative;
+	bottom: 100px;
+	z-index: 99;
+	display: inline-block;
+	text-align: center;
+	padding: 2px;
+	margin: 20px;
+	width: 300px;
+	height: 365px;
+    box-shadow: 0 8px 12px rgba(0,0,0,.975);
+    background: #fff;	
+	-webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+.all-home-imges .img-all-top img {
+
+	width: 300px;
+	height: 361px;	
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, .07);
+	object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.all-home-imges .img-all-top:hover {
+    transform: scale(1.1);
+}

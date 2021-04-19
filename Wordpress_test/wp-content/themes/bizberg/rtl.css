@@ -1,0 +1,95 @@
+body{
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.header-search .search-form input.search-field, .widget.widget_search .search-form input.search-field{
+	padding: 10px 15px 10px 60px;
+}
+
+.header-search .search-form input#searchsubmit, .search-form input#searchsubmit{
+	left: 0; right: inherit;
+}
+
+#top-social-left li:hover a .ts-icon{float: right;}
+
+#top-social-left li:hover a .ts-text{float: left; padding: 0 0 0 15px;}
+
+.sticky .entry-content:before, .entry-content:after{transform: rotate(45deg); padding-left: 0px; padding-right: 8px;}
+
+.sticky .entry-content:after{right: inherit; transform: rotate(-45deg); left: 6px;}
+
+ul.infobox_header_wrapper{padding: 0;}
+
+.top-bar-right li:after{padding-right: 10px; padding-left: 0;}
+
+.top-bar-right i{margin: 0 0 0 2px;}
+
+a.logo.pull-left{float: right!important;}
+
+ul#responsive-menu{float: left!important;}
+
+.navbar-nav>li, .blog-author-left{float: right;}
+
+.navbar-nav li, #blog .blog-post.blog-grid .entry-meta{text-align: right;}
+
+.header-search{padding: 0 20px 0 0;}
+
+.navbar-nav li a i{float: left;}
+
+.navbar-nav li a i.has_sub_menu_parent.fa.fa-angle-down{ left: inherit; right: 4px;}
+
+.header-search .search-box-wrap{right: inherit; left: 0;}
+
+.navbar-default .navbar-nav>li>a:after{right: inherit; left: 0;}
+
+.blog-grid .red-btn{text-align: right;}
+
+#blog .blog-post.blog-grid header.entry-header{
+	float: right;
+	margin-left: 20px;
+}
+
+#blog .blog-post.blog-large.blog-grid .entry-thumbnail{margin-right: 0;}
+
+.bizberg_detail_cat, .bizberg_detail_cat:after{left: inherit; right: 0;}
+
+.navbar-default .navbar-nav>li>a.menu_custom_btn{margin: 0 15px 0 0;}
+
+.bizberg_default_page .single_page h3:after{left: inherit; right: 0;}
+
+.breadcrumb-wrapper .section-title{width: 100%; text-align: right;}
+
+.breadcrumb-wrapper h1{padding: 13px 0 0;}
+
+ul.comment-item li .comment-header{margin: 0 60px 0 0;}
+
+.comments-area ol.comment-list > ul.comment-item{padding: 0 0 0 40px;}
+
+/*sidebar*/
+
+.sidebar-wrapper .section-title h3, #sidebar .widget h2.widget-title{
+	text-align: right;
+}
+
+#sidebar .widget ul{padding: 0;}
+
+
+#back-to-top a{
+	padding: 0 14px 0 0;
+}
+
+ul.inline-menu li + li:before{padding: 0 0 0 15px;}
+
+@media(max-width: 1024px){
+	.slicknav_btn{right: inherit; left: 15px;}
+}
+
+@media(max-width: 639px){
+
+	#blog .blog-post.blog-grid header.entry-header{margin: 0; width: 100%;}
+
+	#blog .blog-post.blog-large.blog-grid .entry-thumbnail{margin-bottom: 50px;}
+
+	.blog-post .entry-content{margin-bottom: 0;}
+}

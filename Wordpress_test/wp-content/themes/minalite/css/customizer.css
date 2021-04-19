@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------
+# Customize
+--------------------------------------------------------------*/
+.minalite-pro-description span:before {
+    content: "+";
+    color: #d55;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.minalite-pro-description span{
+	display: block;
+    margin-top: 5px;
+}
+.minalite-pro-description .mina-buy-button{
+	background-color: #82b440;
+    box-shadow: 0 2px 0 #6f9a37;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+#accordion-section-mina_pro .accordion-section-title{
+    background-color: #8dc740;
+    color: #fff;
+}
+#accordion-section-mina_pro .accordion-section-title:after{
+	color: #fff;
+}
+#accordion-section-mina_pro .accordion-section-title:hover{
+	background-color: #a1da55 !important;
+	color: #fff !important;
+}
+.minalite-pro-description .minalite-morefree-button{
+    background-color: #08B27F;
+    box-shadow: 0 2px 0 #057957;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
