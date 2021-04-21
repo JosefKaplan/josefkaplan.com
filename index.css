@@ -47,9 +47,9 @@ header {
     display: inline;
 }
 
-p{
+i{
     display:inline;
-    margin: 0!important;
+    margin: 0;
 }
 
 .thumbnail {
