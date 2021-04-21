@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+.btn {
+    margin-right: 1em;
+}
+
 header {
     background-color:#2b3785;
 }
@@ -46,6 +50,7 @@ header {
     filter: saturate(0.2);
     opacity: 0.65;
     display: inline;
+    margin-top: -1.75em;
 }
 
 i{
@@ -59,3 +64,22 @@ i{
     align-self: center;
     overflow: hidden;
 }
+
+.text-custom {
+    margin: none;
+    padding: none;
+}
+
+.ml12 {
+    margin-top: 1em;
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
