@@ -50,7 +50,7 @@ header {
     filter: saturate(0.2);
     opacity: 0.65;
     display: inline;
-    margin-top: -1.75em;
+    margin-top: -1.75em!important;
 }
 
 i{
