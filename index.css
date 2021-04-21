@@ -16,18 +16,6 @@ header {
     background-color:#2b37859a;
 }
 
-.nnn {
-    margin: 1em;
-}
-
-.nnnl {
-    left: 0;
-}
-
-.nnnr {
-    right: 0;
-}
-
 .thumbnail:hover , .thumbnail:focus, .thumbnail:active {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
@@ -69,4 +57,11 @@ img:hover {
     transition-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-delay: 0.05s;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    overflow: hidden;
 }
