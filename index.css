@@ -34,29 +34,22 @@ header {
     animation-iteration-count: infinite;
 }
 
-img:hover {
+.thumbnail:hover {
     cursor: pointer;
     animation-delay: 0.05s;
 }
 
 .icon {
     margin: 0;
+    margin-top: -1.75em;
+    filter: saturate(0.2);
+    opacity: 0.65;
+    display: inline;
 }
 
-.icon:hover{
-    transition: 0.4s;
-    transition-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    transform: rotate(360deg);
-    animation-direction: alternate;
-    animation-delay: 0.05s;
-}
-
-.icon:not(:hover){
-    transition: 0.4s;
-    transition-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-delay: 0.05s;
+p{
+    display:inline;
+    margin: 0!important;
 }
 
 .thumbnail {
