@@ -8,25 +8,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.thirdText {
-    margin-top:2em;
-    line-height: 1em;
-}
-.fourthText {
-    margin-top:0em;
-    line-height: 1em;
-}
-.cls-1 {
-    margin: 0.5em;
-    line-height: 1em;
-}
-.technology {
-    line-height: 1em;
-}
+
 header {
     background-color:#2b3785;
-    width: 110%;
-    overflow-x: hidden;
 }
 .navbar-custom-2 {
     background-color:#2b37859a;
@@ -53,6 +37,7 @@ header {
     border-bottom: black solid 1.5px;
     border: gray solid 1px;
     box-shadow: 1em 1em 1em -1em  rgba(0,0,0,0.75);
+    animation-delay: 0.05s;
 }
 
 .thumbnail:not(:hover) {
@@ -63,6 +48,7 @@ header {
 
 img:hover {
     cursor: pointer;
+    animation-delay: 0.05s;
 }
 
 .icon {
@@ -75,14 +61,12 @@ img:hover {
     animation-iteration-count: infinite;
     transform: rotate(360deg);
     animation-direction: alternate;
+    animation-delay: 0.05s;
 }
 
 .icon:not(:hover){
     transition: 0.4s;
     transition-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-}
-
-*:hover {
     animation-delay: 0.05s;
 }
