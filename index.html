@@ -82,82 +82,61 @@
               </div>
             </div>
           </div>
-          <nav class="navbar navbar-light navbar-custom">
+        </header>
+          <nav class="navbar navbar-light navbar-fixed-top navbar-custom">
             <div class="container">
               <div class="row">
-                <div class="col- navbar-left nnn nnl">
+                <div class="col- navbar-left">
                   <button class="bg-light btn btn-outline-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                 </div>
-                <div class="col- nnn nnr">
+                <div class="col-">
                   <a class="nav-link btn-outline-light btn" role="button" aria-pressed="true" href="cv/cv.html" target="blank">Professional CV</a>
                 </div>
               </div>
             </div>
           </nav>
         </div>
-      </header>
 
       <main>
-        <div class="container" id= "introduction">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <h1 class="ml12">Welcome to my personal portfolio!</h1>
-              <h1 class="mt-5" class="firstText text-custom" id="firstText"></h1>
-              <h2 class="lead" class="text-custom secondText" id="secondText">Hi, I'm a beginning front-end developer.</h2>
-              <p class="thirdText text-custom" id="thirdText">I'm curently looking for new projects to extend my skills in JS Frameworks and Libraries.</p>
-              <p class="fourthText text-custom" id="fourthText">Check out my projects down below.</p>
+        <div class="somebackground">
+          <div class="container" id= "introduction">
+            <div class="row">
+             <div class="col-lg-12 text-center">
+                <h1 class="lead ml12">Welcome to my personal portfolio!</h1>
+                <h1 class="mt-5" class="firstText text-custom" id="firstText"></h1>
+                <h2 class="lead" class="text-custom secondText" id="secondText">Hi, I'm a beginning front-end developer.</h2>
+                <p class="thirdText text-custom" id="thirdText">I'm curently looking for new projects to extend my skills in JS Frameworks and Libraries.</p>
+                <p class="fourthText text-custom btn" id="fourthText">
+                  <a class="btn btn-outline-primary" id="autoScroll" data-toggle="autoScroll" href="#Projects" role="button" aria-expanded="false" aria-controls="autoScroll">Check out my projects down below.</a>
+                </p>
+              </div>
+              <div class="megabreak">
+              </div>
             </div>
           </div>
         </div>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      </div>
+        <div class="row mb-2 projects-space autoScroll" id="Projects">
 
-        <div class="row mb-2">
-<!--Project 1-->
+<!--Project 2-->
           <div class="col-md-6 project-face">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250">
               <div class="card-body d-flex flex-column align-items-start">
-                <strong class="d-inline-block mb-2 text-primary">Web</strong>
+                <strong class="d-inline-block mb-2 text-warning">Web and design</strong>
                 <h3 class="mb-0">
-                  <a class="text-dark" href="https://josefkaplan.com/KK/web/Home.html" target="blank">Student portfolio web page</a>
-                </h3>
-                <div class="mb-1 text-muted">June-July 2020</div>
-                <p class="card-text mb-auto">Portfolio for graphic designer with finished products and projects.</p>
-                <p>
-                  <a class="btn btn-outline-primary" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">About this project</a>
-                </p>
-                <div class="collapse multi-collapse1" id="multiCollapse1">
-                  <div class="card card-body popis">
-                    <p class="text-dark">Desktop demo version of student portfolio. Said student created graphic vector files and affiliate svgs for this demo project.</p>
-                    <p class="text-dark">Due to missing graphics, <b>mobile version is poor and unsupported.</b></p>
-                    <span class="text-muted technology">Technology/Frameworks/Libraries:
-                      <br>
-                      <p><i class="fab h3 mx-1 fa-html5"></i><i class="fab h3 mx-1 fa-css3"></i><i class="fab h3 mx-1 fa-js"></i></p>
-                  </span>
-                  </div>
-                </div>
-              </div>
-              <a href="https://josefkaplan.com/KK/web/Home.html" target="blank"><img class="thumbnail card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x200]" src="https://lh3.googleusercontent.com/pw/ACtC-3de4hVgLCjrNR103xk7tkmjqbWDI2oK5Wlc9Pl8u0QBcdjhwb88DlDqRX3Ah2JYdVK59vnVL_b7ni63vI71W0wDdr9QscHHEGpFUt9XFRimJ_Uq6ujMZPuuJa_3XrbiBNazGEFfmOfWanTKJyYNAeYq=s695-no?authuser=0" data-holder-rendered="true"></a>
-            </div>
-          </div>
-<!--Project 2-->
-          <div class="col-md-6 project-face   ">
-            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-              <div class="card-body d-flex flex-column align-items-start">
-                <strong class="d-inline-block mb-2 text-primary">Web</strong>
-                <h3 class="mb-0">
-                  <a class="text-dark" href="./laoc/index.html" target="blank">Band Website</a>
+                  <a class="text-dark odkaz" href="./laoc/index.html" target="blank">Band Website</a>
                 </h3>
                 <div class="mb-1 text-muted">April - May 2021</div>
-                <p class="card-text mb-auto">Band Portfolio</p>
+                <p class="card-text mb-auto">Official band portfolio</p>
                 <p>
                   <a class="btn btn-outline-primary" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="multiCollapse2">About this project</a>
                 </p>
                 <div class="collapse multi-collapse2" id="multiCollapse2">
                   <div class="card card-body popis">
-                    <p class="text-dark">Portfolio for band from Prague. Includes information about interprets, links to social media and latest news.</p>
+                    <p class="text-dark">Portfolio for band from Prague. Includes information about&nbsp;interprets, links to&nbsp;social media and&nbsp;latest news.</p>
                     <span class="text-muted technology">Technology/Frameworks/Libraries:
                       <br>
                     <p>
@@ -175,6 +154,66 @@
             </div>
           </div>
 <!--Project 3-->
+          <div class="col-md-6 project-face">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+              <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-primary">Web</strong>
+                <h3 class="mb-0">
+                  <a class="text-dark odkaz" href="https://ecokit.cz/" target="blank">Company Website</a>
+                </h3>
+                <div class="mb-1 text-muted">April - May 2021</div>
+                <p class="card-text mb-auto">Company developing new eco-friendly and&nbsp;high performance homes with&nbsp;low running cost.</p>
+                <p>
+                  <a class="btn btn-outline-primary" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="false" aria-controls="multiCollapse3">About this project</a>
+                </p>
+                <div class="collapse multi-collapse3" id="multiCollapse3">
+                  <div class="card card-body popis">
+                    <p class="text-dark">Website was translated from <a class=text-primary href="https://ecokit.com.au/" target="blank">english original</a> and&nbsp;edited according toczech language specifications.</p>
+                    <p class="text-dark">Main work was done&nbsp;in Wordpress, additional expressions had to&nbsp;be&nbsp;edited directly in&nbsp;html/php, to&nbsp;resolve any&nbsp;typographycal errors.</p>
+                    <span class="text-muted technology">Technology/Frameworks/Libraries:
+                      <br>
+                    <p>
+                      <i class="fab h3 mx-1 fa-html5"></i>
+                      <i class="fab h3 mx-1 fa-css3"></i>
+                      <i class="fab h3 mx-1 fa-js"></i>
+                      <i class="fab h3 mx-1 fa-wordpress"></i>
+                      <i class="fab h3 mx-1 fa-php"></i>
+                    </p>
+                  </span>
+                  </div>
+                </div>
+              </div>
+              <a href="https://ecokit.cz/" target="blank"><img class="thumbnail card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x200]" src="https://lh3.googleusercontent.com/_LpUTsNrY_bjS1qP41lHij48gZ3z5Be1ZnMAaAjqdQZUcsc4ONnqDi5lnPzzmGcoXu1QLg-aSSERooB1D7gxMxMp0ZUXdffRdPe3hF9xQo2icU2D2hwUWCGKP3HqfBpu7DwvHqIOhW2ztx-J0r5pRpU5r4VYhSuMompdoxw-7K3gYebHaiY7QcofH_mi4fDM4FxI-AoWpZ2axgSURpny_g6H2cePTq1KErJ1TwwIAHufUnNT4Tg2UMd6NcCnsyOcBEhLzjc_9mPTbv0dV7KUwuA7uWRxl1LGwaBdoB5R6U3lQCfWzFMqLIM4J1rpNr2cp-erLptwELBZvyjZ_KZAaToKIGdtl_A3gGx_e08acSxEc1gYcylT5NZcJyx_SMX-hETZ3hBsoExwnMX4A5IwpYsrW45sQePBZVSUFr5hTCCStvmtAjB-KlUbAkSxPA1BGYLVU8tb5f3pRo8CqF_ZQNKcpqiTZdaH1fdQdLaqwyGwSxD4RIes8ubTTFLMezD4GBaFWzUSFZi6yH9YM6Hv8OFrPaeqUf7JiQbPAkx7wZCfpppCL1kX4VwisD5mNyYTiyD_s9GUX2f4oRik5r_tPR96qHQjp1DT0AUwJI5g60g8c9qu-hJG0Gxi3gIFerYWvInsupQaE5isuCDcK_PhqL7pB3zOElq4sSn32m_O_qi2gfSTnzvRtlyxYUEiFlzzY1T5vr9uZFjeQ6vp7XeerCQy=w573-h654-no?authuser=0" data-holder-rendered="true"></a>
+            </div>
+          </div>
+<!--Project 4-->
+          <div class="col-md-6 project-face">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+              <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-primary">Web</strong>
+                <h3 class="mb-0">
+                  <a class="text-dark odkaz" href="https://josefkaplan.com/KK/web/Home.html" target="blank">Portfolio website</a>
+                </h3>
+                <div class="mb-1 text-muted">June-July 2020</div>
+                <p class="card-text mb-auto">Portfolio for&nbsp;graphic designer with&nbsp;finished products and&nbsp;projects.</p>
+                <p>
+                  <a class="btn btn-outline-primary" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">About this project</a>
+                </p>
+                <div class="collapse multi-collapse1" id="multiCollapse1">
+                  <div class="card card-body popis">
+                    <p class="text-dark">Desktop demo version of&nbsp;student portfolio. Said student created graphic vector files and&nbsp;affiliate svgs for&nbsp;this demo project.</p>
+                    <p class="text-dark">Due to&nbsp;missing graphics, <b>mobile version is&nbsp;poor and&nbsp;unsupported.</b></p>
+                    <span class="text-muted technology">Technology/Frameworks/Libraries:
+                      <br>
+                      <p><i class="fab h3 mx-1 fa-html5"></i><i class="fab h3 mx-1 fa-css3"></i><i class="fab h3 mx-1 fa-js"></i></p>
+                  </span>
+                  </div>
+                </div>
+              </div>
+              <a href="https://josefkaplan.com/KK/web/Home.html" target="blank"><img class="thumbnail card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [200x200]" src="https://lh3.googleusercontent.com/pw/ACtC-3de4hVgLCjrNR103xk7tkmjqbWDI2oK5Wlc9Pl8u0QBcdjhwb88DlDqRX3Ah2JYdVK59vnVL_b7ni63vI71W0wDdr9QscHHEGpFUt9XFRimJ_Uq6ujMZPuuJa_3XrbiBNazGEFfmOfWanTKJyYNAeYq=s695-no?authuser=0" data-holder-rendered="true"></a>
+            </div>
+          </div>
+<!--Project 4-->
         </div>
       </main>
       <footer>

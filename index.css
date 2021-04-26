@@ -9,17 +9,41 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth!important;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+.odkaz {
+    font-weight: 700;
+    text-decoration: none!important;
+}
+
+.odkaz:not(:hover) {
+    opacity: 0.7;
+    transition-timing-function: ease-in-out;
+	transition-duration: 0.15s;
+    animation-delay: 0.025s;
+}
+
+.odkaz:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+	transition-duration: 0.15s;
+    animation-delay: 0.025s;
+}
+
+.navbar-custom {
+    background-color:#021381;
 }
 
 .btn {
-    margin-right: 1em;
-}
-
-header {
-    background-color:#2b3785;
-}
-.navbar-custom-2 {
-    background-color:#2b37859a;
+    margin-right: 2em;
 }
 
 .thumbnail:hover , .thumbnail:focus, .thumbnail:active {
@@ -45,6 +69,25 @@ header {
     animation-delay: 0.05s;
 }
 
+.thumbnail{
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    display: cover;
+    align-self: center;
+    background-position: center;
+    object-position:center;
+   }
+
+.thumbnail-left{
+    object-position: -210px center;
+}
+
 .icon {
     margin: 0;
     filter: saturate(0.2);
@@ -58,12 +101,6 @@ i{
     margin: 0;
 }
 
-.thumbnail {
-    width: 200px;
-    height: 200px;
-    align-self: center;
-    overflow: hidden;
-}
 
 .text-custom {
     margin: none;
@@ -72,14 +109,18 @@ i{
 
 .ml12 {
     margin-top: 1em;
-    font-weight: 200;
-    font-size: 1.8em;
-    text-transform: uppercase;
+    text-transform: uppercase!important;
     letter-spacing: 0.5em;
   }
   
   .ml12 .letter {
-    display: inline-block;
     line-height: 1em;
   }
   
+  .megabreak {
+      margin-top: 50em;
+      background-color: rgba(255, 255, 255, 0);
+  }
+  .somebackground {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgb(255, 255, 255, 0.5));
+  }

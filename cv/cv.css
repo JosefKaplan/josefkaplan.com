@@ -3,6 +3,11 @@
     border: solid 1px red;
 }
 */
+
+.ikonky {
+    opacity: 0.8;
+    font-size: 1.5em;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;

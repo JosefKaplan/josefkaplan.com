@@ -101,10 +101,9 @@ h1.h {
 }
 
 article{
-	background: white;
+	background: rgba(255, 255, 255, 0);
 	float: middle;
 	object-fit: cover;
-	opacity: 1;
 }
 
 h2 {
@@ -310,8 +309,11 @@ ul {
 
 .object {
 	position: fixed;
-	width: 100%;
-	height: 100%;
+	width: 105%;
+	height: 105%;
+	overflow: hidden;
+	top:-5px;
+	left: -5px;
 }
 
 a.kontakt {

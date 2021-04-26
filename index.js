@@ -1,3 +1,4 @@
+
 let firstText = document.getElementById("firstText");
 anime.timeline({loop: false})
   .add({
@@ -29,7 +30,7 @@ anime.timeline({loop: false})
     opacity: [0,1],
     easing: "easeOutExpo",
     duration: 1200,
-    delay: 3300
+    delay: 3250
   });
 
 let fourthText = document.getElementById("fourthText");
@@ -41,7 +42,7 @@ anime.timeline({loop: false})
     opacity: [0,1],
     easing: "easeOutExpo",
     duration: 1200,
-    delay: 5300
+    delay: 4000
   });
 
 // Wrap every letter in a span
@@ -58,4 +59,3 @@ anime.timeline({loop: false})
     duration: 1200,
     delay: (el, i) => 500 + 30 * i
   });
-
