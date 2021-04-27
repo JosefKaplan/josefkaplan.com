@@ -1,12 +1,12 @@
-
+var t = 600; //delay
 let firstText = document.getElementById("firstText");
 anime.timeline({loop: false})
   .add({
   targets: firstText,
   opacity: [0,1],
   easing: "easeInOutQuad",
-  duration: 1500,
-  delay: 0
+  duration: 1000,
+  delay: t
   });
 
 let secondText = document.getElementById("secondText");
@@ -17,8 +17,8 @@ anime.timeline({loop: false})
     translateZ: 0,
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 1200,
-    delay: 2000
+    duration: 1000,
+    delay: t+(t/8)
   });
 
 let thirdText = document.getElementById("thirdText");
@@ -29,8 +29,8 @@ anime.timeline({loop: false})
     translateZ: 0,
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 1200,
-    delay: 3250
+    duration: 1000,
+    delay: t+(t/2)
   });
 
 let fourthText = document.getElementById("fourthText");
@@ -41,8 +41,8 @@ anime.timeline({loop: false})
     translateZ: 0,
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 1200,
-    delay: 4000
+    duration: 1000,
+    delay: t+t
   });
 
 // Wrap every letter in a span
@@ -56,6 +56,6 @@ anime.timeline({loop: false})
     translateZ: 0,
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 1200,
+    duration: 500,
     delay: (el, i) => 500 + 30 * i
   });

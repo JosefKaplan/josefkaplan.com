@@ -46,7 +46,7 @@ body {
     margin-right: 2em;
 }
 
-.thumbnail:hover , .thumbnail:focus, .thumbnail:active {
+.thumbnail:hover, .thumbnail:focus, .thumbnail:active {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
 	animation-iteration-count: infinite;
