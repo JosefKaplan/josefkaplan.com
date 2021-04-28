@@ -10,9 +10,6 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-h1{
-  opacity: 0;
-}
 
 .navbar .nav-item .dropdown-menu{ display: none; }
 .navbar .nav-item:hover .nav-link{   }

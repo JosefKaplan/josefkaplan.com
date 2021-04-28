@@ -1,4 +1,4 @@
-var t = 600; //delay
+var t = 600; //Delay time 
 let firstText = document.getElementById("firstText");
 anime.timeline({loop: false})
   .add({
@@ -12,7 +12,7 @@ anime.timeline({loop: false})
 let secondText = document.getElementById("secondText");
 anime.timeline({loop: false})
   .add({
-    targets: secondText,
+    targets: secondTet,
     translateX: [40,0],
     translateZ: 0,
     opacity: [0,1],
@@ -59,3 +59,5 @@ anime.timeline({loop: false})
     duration: 500,
     delay: (el, i) => 500 + 30 * i
   });
+
+  

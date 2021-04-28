@@ -54,7 +54,7 @@ body {
 	transition-duration: 0.4s;
     border-bottom: black solid 1.5px;
     border: gray solid 1px;
-    box-shadow: 1em 1em 1em -1em  rgba(0,0,0,0.75);
+    box-shadow: 1em 1em 1em -1em rgba(0,0,0,0.75);
     animation-delay: 0.05s;
 }
 
