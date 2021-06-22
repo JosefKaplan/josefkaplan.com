@@ -107,15 +107,14 @@ i{
     padding: none;
 }
 
-.ml12 {
+.ml12 .ml13 .ml14{
     margin-top: 1em;
-    text-transform: uppercase!important;
-    letter-spacing: 0.5em;
   }
   
-  .ml12 .letter {
+  .ml12 .ml13 .ml14 .letter {
     line-height: 1em;
   }
+
   
   .megabreak {
       margin-top: 50em;
