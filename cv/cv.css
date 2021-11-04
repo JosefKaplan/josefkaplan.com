@@ -208,6 +208,34 @@ footer li {
         background-size: 200%;
         overflow-x: hidden;
         font-size: 80%;
+        max-width: 700px;
+    }
+    li a {
+        overflow: hidden;
+        height: 2rem;
+        max-width: 700px;
+    }
+    section {
+        margin: 5em;
+        position: static;
+        max-width: 700px;
+    }
+    .portrait {
+        position: static;
+        max-width: 700px;
+    }
+    header {
+        margin: 0;
+        max-width: 700px;
+    }
+}
+
+
+@media (max-width: 1500px){
+    body {
+        background-size: 200%;
+        overflow-x: hidden;
+        font-size: 80%;
         max-width: 500px;
     }
     li a {
