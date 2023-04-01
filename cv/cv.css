@@ -30,6 +30,20 @@ i {
     color: grey;
 }
 
+h3 a{
+    color: #4557d4;
+    opacity: 100%;
+}
+
+h3 a:hover{
+    opacity: 50%;
+}
+
+h4 {
+    margin: 5px 0 0 0;
+    padding:0;
+}
+
 input{
     position: relative;
     height:15px;
@@ -83,7 +97,7 @@ li a:hover {
     transition: 0.4s;
     border-bottom: black solid 1.5px;
     border: gray solid 1px;
-    box-shadow: 1em 1em 1em -1em  rgba(0,0,0,0.75);
+    box-shadow: 1em 1em 1em -1em  #4557d4;
 }
 a {
     opacity: 0.5;
