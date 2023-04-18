@@ -1,6 +1,6 @@
-var t = 500; //time duration
+let t = 500; //time duration
 
-var textWrapper = document.querySelector('.ml12');
+let textWrapper = document.querySelector('.ml12');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");// Wraps every letter in a span
 
 anime.timeline({loop: false})
@@ -14,7 +14,7 @@ anime.timeline({loop: false})
     delay: (el, i) => t + 30 * i
   });
 
-var textWrapper = document.querySelector('.ml13');
+let textWrapper = document.querySelector('.ml13');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");// Wraps every letter in a span
 
 anime.timeline({loop: false})
@@ -44,8 +44,8 @@ anime.timeline({loop: false})
   });
 
 
-let tx = 100;
-let timeline = anime.timeline({loop: false})
+let tx = 100; //time duration
+anime.timeline({loop: false})
   .add({
     targets: '.stag4',
     opacity: [0, 1],
