@@ -8,6 +8,7 @@
     opacity: 0.8;
     font-size: 1.5em;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
@@ -18,7 +19,7 @@ body {
     background-size: 120%;
 }
 
-.svg1{
+.svg1 {
     position: fixed;
     top: 10em;
     right: 1em;
@@ -30,39 +31,40 @@ i {
     color: grey;
 }
 
-h3 a{
+h3 a {
     color: #4557d4;
     opacity: 100%;
 }
 
-h3 a:hover{
+h3 a:hover {
     opacity: 50%;
 }
 
 h4 {
     margin: 5px 0 0 0;
-    padding:0;
+    padding: 0;
 }
 
-input{
+input {
     position: relative;
-    height:15px;
+    height: 15px;
     width: 15px;
     box-sizing: border-box;
     margin: 0;
-    padding:0;
+    padding: 0;
     filter: saturate(100%);
-    }
+}
 
-input:hover{
+input:hover {
     filter: saturate(225%);
 }
 
 nav {
     overflow: hidden;
 }
+
 nav ul {
-    overflow-x:hidden;
+    overflow-x: hidden;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -74,16 +76,18 @@ nav ul {
     padding: 0;
     font-weight: 600;
 }
+
 nav li {
     display: table-cell;
     text-align: center;
     width: 50px;
 }
+
 li a {
     display: block;
     text-align: center;
     text-transform: uppercase;
-    color: rgba(0,0,0,0.7);
+    color: rgba(0, 0, 0, 0.7);
     opacity: 0.9;
     border-bottom: gray solid 1.5px;
     border: white solid 1px;
@@ -91,28 +95,33 @@ li a {
     line-height: 2rem;
     padding: 0.1rem;
 }
+
 li a:hover {
     cursor: pointer;
     color: black;
     transition: 0.4s;
     border-bottom: black solid 1.5px;
     border: gray solid 1px;
-    box-shadow: 1em 1em 1em -1em  #4557d4;
+    box-shadow: 1em 1em 1em -1em #4557d4;
 }
+
 a {
     opacity: 0.5;
     text-decoration: none;
     color: black;
 }
-a:hover{
+
+a:hover {
     opacity: 1;
     cursor: pointer;
 }
-a.certificate{
+
+a.certificate {
     margin-left: 3ch;
     opacity: 1;
 }
-a.certificate:hover{
+
+a.certificate:hover {
     font-weight: 700;
 }
 
@@ -122,23 +131,25 @@ a.certificate:hover{
     width: 250px;
     height: 250x;
     left: 10px;
-    border: 3px solid grey;
+    border: 3px solid rgba(69, 87, 212, 0.75);
     border-radius: 100%;
     align-content: top left;
     overflow: hidden;
     text-align: left;
 }
+
 header {
     margin: 10rem 20rem 10rem 20rem;
     overflow: visible;
 }
 
-#logo path:nth-child(1){
+#logo path:nth-child(1) {
     stroke-dasharray: 1500;
     stroke-dashoffset: 10000;
-  }
+}
+
 #logo {
-    top: 3em!important;
+    top: 3em !important;
     position: absolute;
 }
 
@@ -150,56 +161,69 @@ section {
     overflow: hidden;
     background: white;
     border-radius: 2em;
-    box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
     margin-bottom: 3em;
     margin-top: 3em;
 }
-.projects li{
+
+.projects li {
     list-style-type: none;
     margin: 0.5rem;
 }
+
 .projects ul {
     margin: 0.5rem;
 }
+
 h1 {
     margin-bottom: 0;
     text-align: left;
 
 }
+
 h2 {
     margin: 0.5rem 1rem;
     text-align: left;
 }
+
 h3 {
     text-transform: uppercase;
     text-align: left;
     margin: 0.5rem;
 }
+
 p {
     margin: 0rem 2rem;
     text-align: left;
 }
+
 ul {
     margin: 0;
     text-align: left;
 }
+
 ul p {
     margin: 0rem;
     text-align: left;
 }
+
 main {
     opacity: 0.9;
 }
+
 :target {
     opacity: 0.9;
 }
+
 nav {
     overflow: hidden;
 
 }
+
 footer {
     margin: 1rem;
 }
+
 footer ul {
     z-index: 1;
     top: 0;
@@ -211,33 +235,38 @@ footer ul {
     padding: 0;
     font-weight: 600;
 }
+
 footer li {
     display: table-cell;
     text-align: center;
     width: 50px;
 }
 
-@media (max-width: 10000px){
+@media (max-width: 10000px) {
     body {
         background-size: 200%;
         overflow-x: hidden;
         font-size: 80%;
         max-width: 700px;
     }
+
     li a {
         overflow: hidden;
         height: 2rem;
         max-width: 700px;
     }
+
     section {
         margin: 5em;
         position: static;
         max-width: 700px;
     }
+
     .portrait {
         position: static;
         max-width: 700px;
     }
+
     header {
         margin: 0;
         max-width: 700px;
@@ -245,136 +274,155 @@ footer li {
 }
 
 
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
     body {
         background-size: 200%;
         overflow-x: hidden;
         font-size: 80%;
         max-width: 500px;
     }
+
     li a {
         overflow: hidden;
         height: 2rem;
         max-width: 500px;
     }
+
     section {
         margin: 5em;
         position: static;
         max-width: 500px;
     }
+
     .portrait {
         position: static;
         max-width: 500px;
     }
+
     header {
         margin: 0;
         max-width: 500px;
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     body {
         background-size: 200%;
         overflow-x: hidden;
         font-size: 50%;
         max-width: 500px;
     }
+
     li a {
         overflow: hidden;
         height: 2rem;
         max-width: 500px;
     }
+
     .personal {
         margin: 0.5rem;
         position: static;
         width: auto;
         max-width: 500px;
     }
+
     .projects {
         margin: 0.5rem;
         position: static;
         width: auto;
         max-width: 500px;
     }
+
     section {
         margin: 0.5rem;
         position: static;
         width: auto;
         max-width: 500px;
     }
+
     .portrait {
         position: static;
         max-width: 500px;
     }
+
     header {
         margin: 0;
         max-width: 500px;
     }
+
     #logo {
-        top: 5em!important;
+        top: 5em !important;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
     body {
         background-size: 400%;
         overflow-x: hidden;
         font-size: 50%;
         max-width: 400px;
     }
+
     nav {
         display: none;
         max-width: 400px;
     }
+
     li a {
         overflow: hidden;
         height: 2rem;
         max-width: 400px;
     }
+
     .personal {
         margin: 0.5rem;
         position: static;
         width: auto;
         max-width: 400px;
     }
+
     .projects {
         margin: 0.5rem;
         position: static;
         width: auto;
         max-width: 400px;
     }
+
     section {
         margin: 0.5rem;
         position: static;
         width: auto;
         max-width: 400px;
     }
+
     .portrait {
         position: static;
         margin: 0px;
         max-width: 400px;
         margin-top: 18em;
     }
+
     header {
         margin: 0;
         max-width: 400px;
     }
+
     #logo {
-        top: 2em!important;
+        top: 2em !important;
     }
 }
 
 
-#displayed{
+#displayed {
     cursor: pointer;
 }
 
-#display{
-    fill:#4557d4;
+#display {
+    fill: #4557d4;
 }
 
 
-#display:hover{
+#display:hover {
     fill: rgb(253, 255, 121);
     cursor: pointer;
     transition: 1s ease-in-out;
@@ -385,4 +433,3 @@ footer li {
     cursor: pointer;
     opacity: 0.75;
 }
-
