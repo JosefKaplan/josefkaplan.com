@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*bootstrap-grid control*/
 /*{
-        border: solid 1px red;
+        border: solid 1px red !important;
     } 
     */
 
@@ -31,6 +31,10 @@ body {
 
 .container-content {
     margin: auto;
+}
+
+.container-nav{
+    max-width:110%;
 }
 
 .odkaz {
@@ -123,15 +127,6 @@ i {
     margin: none;
     padding: none;
 }
-
-.ml12 .ml13 .ml14 {
-    margin-top: 1em;
-}
-
-.ml12 .ml13 .ml14 .letter {
-    line-height: 1em;
-}
-
 
 .megabreak {
     margin-top: 50em;
