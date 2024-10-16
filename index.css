@@ -99,10 +99,11 @@ body {
     max-height: 200px;
     max-width: 200px;
     overflow: hidden;
-    display: cover;
     align-self: center;
     background-position: center;
     object-position: center;
+    border-radius: 0.25rem;
+
 }
 
 .thumbnail-left {
