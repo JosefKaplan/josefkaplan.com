@@ -19,6 +19,10 @@ body {
     background-size: 120%;
 }
 
+article {
+    margin-bottom: 2rem;
+}
+
 .svg1 {
     position: fixed;
     top: 10em;
@@ -94,6 +98,7 @@ li a {
     background-color: white;
     line-height: 2rem;
     padding: 0.1rem;
+    border-radius: 0.5rem;
 }
 
 li a:hover {
