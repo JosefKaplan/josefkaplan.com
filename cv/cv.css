@@ -87,6 +87,10 @@ nav li {
     width: 50px;
 }
 
+a.simple-href {
+    display: initial;
+}
+
 li a {
     display: block;
     text-align: center;
