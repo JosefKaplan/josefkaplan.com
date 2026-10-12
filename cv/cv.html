@@ -8,9 +8,10 @@
 =============================
 -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Josef Kaplan | CV</title>
     <link rel="icon" href="./PC.svg" type="image/x-icon">
     <!--Fonts-->
@@ -395,24 +396,6 @@
         });
     </script>
     <script>
-        let targetSVG = document.getElementById(999999999);
-        let targetWidth = targetSVG.getAttribute("width");
-        console.log(`Width of svg before is ${targetWidth} px.`);
-        let displayWidth = screen.width;
-        console.log(`Width of display before is ${displayWidth} px.`);
-        function modifyWidth(finalWidth) {
-            if (targetWidth !== displayWidth && targetWidth > displayWidth) {
-                targetSVG.setAttribute("width", `${displayWidth}`);
-                targetSVG.style.top = -(screen.height) / 2.5;
-            } else {
-                targetSVG.setAttribute("width", `${displayWidth}`);
-            };
-            finalWidth = targetSVG.getAttribute("width");
-            return console.log(`Width of svg after is ${finalWidth} px.`);
-        }
-        modifyWidth();
-    </script>
-    <script>
         let mouseTarget = document.getElementById('display');
         mouseTarget.addEventListener('mouseenter', e => {
             mouseTarget.style.fill = '#ffff66!important';   //Must be set to important othervise CSS will overite
@@ -423,14 +406,6 @@
             mouseTarget.style.fill = '#4557d4!important';   //Must be set to important othervise CSS will overite
             mouseTarget.style.transition = '1s ease-in-out';
             console.log('Mouse left display.');
-        });
-    </script>
-    <script>
-        let mouseTargetKey = document.getElementById('key');
-        let mouseTargetShadow = document.getElementById('keyShadow');
-        mouseTargetKey.addEventListener('mouseenter', e => {
-            target.style.fill = '#000000';
-            console.log('Mouse enterd key.');
         });
     </script>
     <div id="Top"></div>
@@ -478,7 +453,7 @@
                 <p>11/16/1996</p>
             </article>
             <article>
-                <h3>Adress</h3>
+                <h3>Address</h3>
                 <p>Ke Mlynu 44</p>
                 <p>294 43 Vsejany, Vanovice</p>
                 <p>Czech Republic</p>
@@ -494,7 +469,7 @@
                         mail@josefkaplan.com
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/josef-kaplan/" class="simple-href" target="_blank">Linked-In</a>
+                        <a href="https://www.linkedin.com/in/josef-kaplan/" class="simple-href" target="_blank">LinkedIn</a>
                     </li>
                 </ul>
             </article>
@@ -518,6 +493,9 @@
                     <li>PHP <i>(Upper-Intermediate Level)</i></li> <input type="radio" checked="checked"> <input
                         type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
                         checked="checked"> <input type="radio" disabled>
+                    <li>Laravel <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
+                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
+                        type="radio" disabled>
                     <li>HTML5 and CSS3 <i>(Upper-Intermediate Level)</i></li> <input type="radio" checked="checked">
                     <input type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
                         checked="checked"> <input type="radio" disabled>
@@ -548,10 +526,7 @@
                     <li>Docker <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
                         checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
                         type="radio" disabled>
-                    <li>Nette <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Doctrine ORM<i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input
+                    <li>Doctrine ORM <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input
                         type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
                         disabled> <input type="radio" disabled>
                     <li>MySQL <i>(Elementary Level)</i></li> <input type="radio" checked="checked"> <input type="radio"
@@ -592,7 +567,7 @@
                     <li>MATLAB <i>(Upper-Intermediate Level)</i></li> <input type="radio" checked="checked"> <input
                         type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
                         checked="checked"> <input type="radio" disabled>
-                    <li>MS Office Suite (Excel, Word, Acces, ...) <i>(Professional Level)</i></li><input type="radio"
+                    <li>MS Office Suite (Excel, Word, Access, ...) <i>(Professional Level)</i></li><input type="radio"
                         checked="checked"> <input type="radio" checked="checked"> <input type="radio" checked="checked">
                     <input type="radio" checked="checked"> <input type="radio" checked="checked">
                 </ul>
@@ -621,12 +596,21 @@
             <h1>Professional Experience</h1>
             <hr>
             <article>
+                <h3>EGIT</h3>
+                <ul>
+                    <li>
+                        <h4>Contract&nbsp;PHP&nbsp;Software&nbsp;Engineer</h4><i>3/2026 - now</i>
+                    </li>
+                    <p>PHP development of e-commerce websites (givery.cz, herni-kupony.cz).</p>
+                </ul>
+            </article>
+            <article>
                 <h3><a href="https://albixon.cz">Albixon</a> Holding A. S.</h3>
                 <ul>
                     <li>
-                        <h4>Fullstack&nbsp;Developer</h4><i>5/2023 - now</i>
+                        <h4>Fullstack&nbsp;Developer</h4><i>5/2023 - 3/2026</i>
                     </li>
-                    <p>Developement and deployment of web apps.</p>
+                    <p>Development and deployment of web apps.</p>
                     <p>Managing a library of technical documentation.</p>
                     <p>Management of requests from Companies and Marketing</p>
                 </ul>
@@ -689,7 +673,7 @@
                 </ul>
             </article>
             <article>
-                <h3>Codecadamy Course</h3>
+                <h3>Codecademy Course</h3>
                 <ul>
                     <li><i>2019 - up to date</i></li>
                     <p>Online course</p>
@@ -719,7 +703,7 @@
             <article>
                 <h3>Language skills</h3>
                 <ul>
-                    <li>English - C1 (Upper-Intermediate Level)</li> <input type="radio" checked="checked"> <input
+                    <li>English - B2 (Upper-Intermediate Level)</li> <input type="radio" checked="checked"> <input
                         type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
                         checked="checked"> <input type="radio" disabled>
                     <li>German - A2 (Elementary Level)</li> <input type="radio" checked="checked"> <input type="radio"
@@ -730,7 +714,7 @@
             <article>
                 <h3>Practical skills in technical and analytical laboratory work</h3>
                 <ul>
-                    <li>Basic operation and calibration of laboratory equpment(HPLC/GC, voltametry, potentiometry,
+                    <li>Basic operation and calibration of laboratory equipment (HPLC/GC, voltametry, potentiometry,
                         spectrometry, ...)</li>
                 </ul>
             </article>
@@ -771,10 +755,10 @@
         <ul>
             <li>
                 <a class="button"
-                    href="https://drive.google.com/uc?export=download&id=14fOJLNQNJEHLI2dxEbkYHeXQkbOz9LuQ">Download my
+                    href="https://drive.google.com/uc?export=download&id=15YbuPsuYJf6fwUMDKDBm1oJALvcC2JxD">Download my
                     CV in Czech</a>
                 <a id="Download" class="button"
-                    href="https://drive.google.com/uc?export=download&id=1k9JvwfAShmRJZNe9rjwkAkFgrdbIYTA7">Download my
+                    href="https://drive.google.com/uc?export=download&id=1MGhiiK8BTZuzWUAd59cYmI2TTpqSivQL">Download my
                     CV in English</a>
             </li>
         </ul>
