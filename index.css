@@ -372,6 +372,77 @@ summary::-webkit-details-marker {
     box-shadow: 1em 1em 1em -1em rgba(0, 0, 0, 0.75);
 }
 
+/*Side projects: same cards, smaller, three per row, screenshot on top*/
+.side-projects {
+    margin-top: 4rem;
+}
+
+.section-intro {
+    max-width: 45em;
+    margin: -0.5rem 0 1.5rem;
+}
+
+.side-projects-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+}
+
+.side-projects-grid .project {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, border-color 0.2s ease-out,
+        background-color 0.2s ease-out;
+}
+
+.side-projects-grid .project:hover,
+.side-projects-grid .project:focus-within {
+    background-color: #fff;
+    border-color: rgba(69, 87, 212, 0.45);
+    box-shadow: 0 0.75rem 1.5rem -0.75rem rgba(2, 19, 129, 0.4);
+}
+
+.side-projects-grid .project-title {
+    font-size: 1.25rem;
+}
+
+.side-projects-grid .thumbnail {
+    flex: none;
+    align-self: stretch;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.side-projects-grid .thumbnail img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 0;
+}
+
+.side-projects-grid .project:hover .thumbnail img {
+    transform: none;
+    box-shadow: none;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+/*Lift only where hover is real and motion is welcome*/
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .side-projects-grid .project:hover {
+        transform: translateY(-4px);
+    }
+
+    .side-projects-grid .project:hover .thumbnail img {
+        transform: scale(1.04);
+    }
+}
+
 /*Footer*/
 footer {
     margin-top: 4rem;
@@ -414,6 +485,10 @@ footer .fineprint a {
     .projects-grid {
         grid-template-columns: minmax(0, 1fr);
     }
+
+    .side-projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 @media (max-width: 767px) {
@@ -442,6 +517,10 @@ footer .fineprint a {
 
     .site-nav a:not(.btn) {
         display: none;
+    }
+
+    .side-projects-grid {
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .project {
