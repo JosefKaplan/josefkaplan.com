@@ -239,6 +239,42 @@ details[open] .btn-outline-primary {
     border-radius: 100%;
 }
 
+.portrait-frame {
+    position: relative;
+    isolation: isolate;
+    width: 220px;
+    height: 220px;
+}
+
+/*Triangles behind the portrait: same motif as .bg-shapes*/
+.portrait-shapes {
+    position: absolute;
+    inset: -20%;
+    width: 140%;
+    height: 140%;
+    z-index: -1;
+    overflow: visible;
+    pointer-events: none;
+}
+
+.portrait-shapes path {
+    fill: none;
+    stroke: rgb(69, 87, 212);
+    stroke-width: 3;
+    stroke-linejoin: round;
+    stroke-opacity: 0.3;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.portrait-shapes g:nth-child(1) path {
+    stroke-opacity: 0.14;
+}
+
+.portrait-shapes g:nth-child(2) path {
+    stroke-opacity: 0.22;
+}
+
 /*Projects*/
 .section-title {
     margin-bottom: 1.5rem;
@@ -359,6 +395,45 @@ summary::-webkit-details-marker {
 
 /*Smooth open/close where the browser supports animating details; others just snap open*/
 @media (prefers-reduced-motion: no-preference) {
+    /*Portrait triangles fan out once, then drift out of phase so the group never visibly repeats*/
+    .portrait-shapes path {
+        animation: portrait-shape-enter 0.8s ease-out backwards,
+            portrait-shape-drift 24s ease-in-out infinite alternate;
+    }
+
+    .portrait-shapes g:nth-child(1) path {
+        animation-duration: 0.8s, 18s;
+        animation-delay: 0s, -6s;
+    }
+
+    .portrait-shapes g:nth-child(2) path {
+        animation-delay: 0.15s, 0s;
+    }
+
+    .portrait-shapes g:nth-child(3) path {
+        animation-duration: 0.8s, 30s;
+        animation-delay: 0.3s, -11s;
+    }
+
+    @keyframes portrait-shape-enter {
+        from {
+            opacity: 0;
+            scale: 0.6;
+        }
+    }
+
+    @keyframes portrait-shape-drift {
+        from {
+            rotate: -5deg;
+            translate: -1.5px 1px;
+        }
+
+        to {
+            rotate: 5deg;
+            translate: 1.5px -1px;
+        }
+    }
+
     .project > details {
         interpolate-size: allow-keywords;
     }
@@ -488,10 +563,22 @@ footer .fineprint a {
         font-size: 2.25rem;
     }
 
-    .portrait {
+    .portrait-frame {
         order: -1;
         width: 130px;
         height: 130px;
+        margin-bottom: 0.5rem;
+    }
+
+    .portrait {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portrait-shapes {
+        inset: -12%;
+        width: 124%;
+        height: 124%;
     }
 }
 
