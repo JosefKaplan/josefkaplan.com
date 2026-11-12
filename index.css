@@ -1,14 +1,12 @@
-/*Colors (Bootstrap 4 palette + own blues)*/
+/*Colors: one brand blue, one accent for the single primary action, neutrals. Keep in sync with cv/cv.css*/
 :root {
-    --navy: #021381;
+    --navy: #0f1b5c;
     --blue: #4557d4;
-    --primary: #007bff;
-    --info: #17a2b8;
-    --success: #28a745;
-    --warning: #ffc107;
-    --text: #212529;
-    --muted: #6c757d;
-    --border: rgba(0, 0, 0, 0.125);
+    --accent: #ffb703;
+    --accent-hover: #e6a400;
+    --text: #1c2030;
+    --muted: #5b6472;
+    --border: #e3e6ee;
     color-scheme: light;
 }
 
@@ -38,7 +36,7 @@ img {
 }
 
 a {
-    color: var(--primary);
+    color: var(--blue);
     text-decoration: none;
 }
 
@@ -113,25 +111,15 @@ h3 {
     font-size: 0.875rem;
 }
 
-.btn-outline-info {
-    color: var(--info);
-    border-color: var(--info);
+.btn-outline {
+    color: var(--blue);
+    border-color: var(--blue);
 }
 
-.btn-outline-info:hover {
+.btn-outline:hover,
+details[open] .btn-outline {
     color: #fff;
-    background-color: var(--info);
-}
-
-.btn-outline-primary {
-    color: var(--primary);
-    border-color: var(--primary);
-}
-
-.btn-outline-primary:hover,
-details[open] .btn-outline-primary {
-    color: #fff;
-    background-color: var(--primary);
+    background-color: var(--blue);
 }
 
 .btn-outline-light {
@@ -144,16 +132,16 @@ details[open] .btn-outline-primary {
     background-color: #f8f9fa;
 }
 
-.btn-warning {
+.btn-accent {
     color: var(--text);
-    background-color: var(--warning);
-    border-color: var(--warning);
+    background-color: var(--accent);
+    border-color: var(--accent);
 }
 
-.btn-warning:hover {
+.btn-accent:hover {
     color: var(--text);
-    background-color: #e0a800;
-    border-color: #d39e00;
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
 }
 
 /*Navbar*/
@@ -184,13 +172,14 @@ details[open] .btn-outline-primary {
     display: flex;
     align-items: center;
     gap: 1.25rem;
+    margin-left: auto;
 }
 
-.site-nav a:not(.btn) {
+.site-nav a {
     color: rgba(255, 255, 255, 0.75);
 }
 
-.site-nav a:not(.btn):hover {
+.site-nav a:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -303,7 +292,7 @@ details[open] .btn-outline-primary {
 .project:focus-within {
     background-color: #fff;
     border-color: rgba(69, 87, 212, 0.45);
-    box-shadow: 0 0.75rem 1.5rem -0.75rem rgba(2, 19, 129, 0.4);
+    box-shadow: 0 0.75rem 1.5rem -0.75rem rgba(15, 27, 92, 0.35);
 }
 
 .project-body {
@@ -321,23 +310,8 @@ details[open] .btn-outline-primary {
 
 .category {
     margin-bottom: 0.5rem;
+    color: var(--blue);
     font-weight: 500;
-}
-
-.text-info {
-    color: var(--info);
-}
-
-.text-success {
-    color: var(--success);
-}
-
-.text-warning {
-    color: #d39e00;
-}
-
-.text-primary {
-    color: var(--primary);
 }
 
 .project-title {
@@ -588,8 +562,26 @@ footer .fineprint a {
         padding-right: 16px;
     }
 
-    .site-nav a:not(.btn) {
-        display: none;
+    /*Brand and CV button on the first row, section links on their own row below*/
+    .navbar-inner {
+        flex-wrap: wrap;
+        row-gap: 0;
+        padding-top: 0.625rem;
+    }
+
+    .navbar-cv {
+        order: 1;
+    }
+
+    .site-nav {
+        order: 2;
+        flex-basis: 100%;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .site-nav a {
+        padding: 0.75rem 0;
     }
 
     .project {

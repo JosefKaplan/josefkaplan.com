@@ -17,7 +17,7 @@
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!--Linked files-->
-    <link rel="stylesheet" type="text/css" href="./cv.css">
+    <link rel="stylesheet" type="text/css" href="./cv.css?v=6">
     <link href="../KK/web/lightbox.min.css" type="text/css" rel="stylesheet">
     <script src="../KK/web/lightbox-plus-jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,19 @@
 </head>
 
 <body>
-    <svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="80"
+    <header class="site-header">
+        <a class="brand" href="../index.html">Josef Kaplan</a>
+        <nav class="site-nav" aria-label="CV sections">
+            <a href="#Personal_Information">Personal</a>
+            <a href="#Technology_Summary">Technology</a>
+            <a href="#Professional_Experience">Experience</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Education">Education</a>
+            <a href="#Download">Download</a>
+        </nav>
+        <a class="button button-light header-portfolio" href="../index.html">Portfolio</a>
+    </header>
+    <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="400" height="80"
         viewBox="0 0 306.938 68.169">
         <defs>
             <style>
@@ -49,11 +61,11 @@
                 }
             </style>
             <filter id="Path_1" x="0" y="0" width="306.938" height="68.169" filterUnits="userSpaceOnUse">
-                <feOffset dy="3" input="SourceAlpha" />
+                <feOffset dy="3" in="SourceAlpha" />
                 <feGaussianBlur stdDeviation="3" result="blur" />
                 <feFlood flood-opacity="0.161" />
-                <feComposite operator="in" in2="blur" />
-                <feComposite in="SourceGraphic" />
+                <feComposite operator="in" in2="blur" result="shadow" />
+                <feComposite in="SourceGraphic" in2="shadow" />
             </filter>
         </defs>
         <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
@@ -74,14 +86,13 @@
             loop: false
         });
     </script>
-    <svg class=svg1 id="999999999" data - name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:
-        xlink="http://www.w3.org/1999/xlink" width="680" height="800" viewBox="0 0 1113.8 825.71">
+    <svg class=svg1 id="999999999" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="680" height="800" viewBox="0 0 1113.8 825.71">
         <defs>
             <linearGradient id="38c043cc-bff7-4144-86c9-76214eedfc2b" x1="879.53" y1="603.57" x2="879.53" y2="231.44"
                 gradientTransform="matrix(-1, 0, 0, 1, 1191.18, 0)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop - color="gray" stop - opacity="0.25" />
-                <stop offset="0.54" stop - color="gray" stop - opacity="0.12" />
-                <stop offset="1" stop - color="gray" stop - opacity="0.1" />
+                <stop offset="0" stop-color="gray" stop-opacity="0.25" />
+                <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
+                <stop offset="1" stop-color="gray" stop-opacity="0.1" />
             </linearGradient>
         </defs>
         <title>Computer Go BRRR!</title>
@@ -397,52 +408,27 @@
     </script>
     <script>
         let mouseTarget = document.getElementById('display');
-        mouseTarget.addEventListener('mouseenter', e => {
+        mouseTarget.addEventListener('mouseenter', () => {
             mouseTarget.style.fill = '#ffff66!important';   //Must be set to important othervise CSS will overite
             mouseTarget.style.transition = '1s ease-in-out';
             console.log('Mouse enterd display.');
         });
-        mouseTarget.addEventListener('mouseleave', e => {
+        mouseTarget.addEventListener('mouseleave', () => {
             mouseTarget.style.fill = '#4557d4!important';   //Must be set to important othervise CSS will overite
             mouseTarget.style.transition = '1s ease-in-out';
             console.log('Mouse left display.');
         });
     </script>
-    <div id="Top"></div>
-    <nav id="nav">
-        <ul>
-            <li>
-                <a href="#Personal_Information">Personal Information</a>
-            </li>
-            <li>
-                <a href="#Technology_Summary">Technology Summary</a>
-            </li>
-            <li>
-                <a href="#Professional_Experience">Professional Experience</a>
-            </li>
-            <li>
-                <a href="#Skills">Skills</a>
-            </li>
-            <li>
-                <a href="#Education">Education</a>
-            </li>
-            <li>
-                <a href="#Download">Download</a>
-            </li>
-            <li>
-                <a href="#Top"><img
-                        src="https://lh3.googleusercontent.com/pw/ACtC-3cvardp2hDCZQWm5xOcJnS3QWaADCAll48P5d7NA4QNQp7LUTYOyqhoPfNBVBmIegdOVuRggaxnYCE93M___AcrwX6HJtJIJ3bXUYSxDEeq0lARYRlqQN5-fOACB_fyE7hQqhPkrkf_UebmjFd2a3Z9=s15-no?authuser=0"></a>
-            </li>
-        </ul>
-    </nav>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <figure>
-        <img src="https://lh3.googleusercontent.com/pw/AP1GczNN475RIB24bycBU2-MgAjVTYh5fhJe1SW8kPMlvZc8P5mTGfpVb7qWC3VSvxaEqApiToudh-BOcdURGnPNF_aN4_7Cld18HfzRqLWCTAknnd0vfYA=w2400"
-            class="portrait" id="portrait" name="My portrait">
+        <div class="portrait-frame">
+            <svg class="portrait-shapes" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g transform="rotate(55 50 50) translate(-9 0)"><path d="M50 8 L90 77 L10 77 Z" /></g>
+                <g transform="rotate(55 50 50)"><path d="M50 8 L90 77 L10 77 Z" /></g>
+                <g transform="rotate(55 50 50) translate(9 0)"><path d="M50 8 L90 77 L10 77 Z" /></g>
+            </svg>
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNN475RIB24bycBU2-MgAjVTYh5fhJe1SW8kPMlvZc8P5mTGfpVb7qWC3VSvxaEqApiToudh-BOcdURGnPNF_aN4_7Cld18HfzRqLWCTAknnd0vfYA=w2400"
+            class="portrait" id="portrait" alt="Portrait of Josef Kaplan">
+        </div>
     </figure>
     <main>
         <section class="personal" id="Personal_Information">
@@ -469,7 +455,7 @@
                         mail@josefkaplan.com
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/josef-kaplan/" class="simple-href" target="_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/josef-kaplan/" target="_blank">LinkedIn</a>
                     </li>
                 </ul>
             </article>
@@ -491,86 +477,86 @@
             <article>
                 <h3>Code, DB, Scripts & Frameworks</h3>
                 <ul>
-                    <li>PHP <i>(Upper-Intermediate Level)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled>
-                    <li>Laravel <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>HTML5 and CSS3 <i>(Upper-Intermediate Level)</i></li> <input type="radio" checked="checked">
-                    <input type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled>
-                    <li>Javascript <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Nette <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Symfony <i>(Elementary)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Rest API <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Bootstrap 5 <i>(Upper-Intermediate Level)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"><input type="radio" disabled>
-                    <li>Three JS <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>React JS <i>(Elementary Level)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" disabled> <input type="radio" disabled>
-                    <input type="radio" disabled>
-                    <li>Bash / Shell <i>(Elementary Level)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" disabled> <input type="radio" disabled>
-                    <input type="radio" disabled>
-                    <li>Docker <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Doctrine ORM <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
-                        disabled> <input type="radio" disabled>
-                    <li>MySQL <i>(Elementary Level)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>NoSQL <i>(Elementary Level)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Node JS <i>(Entry Level)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        disabled> <input type="radio" disabled> <input type="radio" disabled> <input type="radio"
-                        disabled>
-                    <li>Python <i>(Entry Level)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        disabled> <input type="radio" disabled> <input type="radio" disabled> <input type="radio"
-                        disabled>
-                    <li>C# <i>(Entry Level)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        disabled> <input type="radio" disabled> <input type="radio" disabled> <input type="radio"
-                        disabled>
+                    <li>PHP <i>(Upper-Intermediate Level)</i>
+                        <span class="rating" role="img" aria-label="4 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Laravel <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>HTML5 and CSS3 <i>(Upper-Intermediate Level)</i>
+                        <span class="rating" role="img" aria-label="4 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Javascript <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Nette <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Symfony <i>(Elementary)</i>
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Rest API <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Bootstrap 5 <i>(Upper-Intermediate Level)</i>
+                        <span class="rating" role="img" aria-label="4 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Three JS <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>React JS <i>(Elementary Level)</i>
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Bash / Shell <i>(Elementary Level)</i>
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Docker <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Doctrine ORM <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>MySQL <i>(Elementary Level)</i>
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>NoSQL <i>(Elementary Level)</i>
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Node JS <i>(Entry Level)</i>
+                        <span class="rating" role="img" aria-label="1 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Python <i>(Entry Level)</i>
+                        <span class="rating" role="img" aria-label="1 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>C# <i>(Entry Level)</i>
+                        <span class="rating" role="img" aria-label="1 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
                 </ul>
             </article>
             <article>
                 <h3>Software</h3>
                 <ul>
-                    <li>Wordpress <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>Adobe Suite (XD, Photoshop, ...) <i>(Elementary Level)</i></li> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled> <input type="radio" disabled>
-                    <li>Blender <i>(Elementary Level)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" disabled> <input type="radio" disabled>
-                    <input type="radio" disabled>
-                    <li>Unreal Engine 5 <i>(Entry Level)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" disabled> <input type="radio" disabled> <input type="radio" disabled>
-                    <input type="radio" disabled>
-                    <li>DCIx WMS <i>(Intermediate)</i></li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" disabled> <input
-                        type="radio" disabled>
-                    <li>MATLAB <i>(Upper-Intermediate Level)</i></li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled>
-                    <li>MS Office Suite (Excel, Word, Access, ...) <i>(Professional Level)</i></li><input type="radio"
-                        checked="checked"> <input type="radio" checked="checked"> <input type="radio" checked="checked">
-                    <input type="radio" checked="checked"> <input type="radio" checked="checked">
+                    <li>Wordpress <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Adobe Suite (XD, Photoshop, ...) <i>(Elementary Level)</i>
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Blender <i>(Elementary Level)</i>
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>Unreal Engine 5 <i>(Entry Level)</i>
+                        <span class="rating" role="img" aria-label="1 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>DCIx WMS <i>(Intermediate)</i>
+                        <span class="rating" role="img" aria-label="3 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>MATLAB <i>(Upper-Intermediate Level)</i>
+                        <span class="rating" role="img" aria-label="4 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>MS Office Suite (Excel, Word, Access, ...) <i>(Professional Level)</i>
+                        <span class="rating" role="img" aria-label="5 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span></span>
+                    </li>
                 </ul>
             </article>
             <article>
@@ -601,8 +587,8 @@
                 <ul>
                     <li>
                         <h4>Contract&nbsp;PHP&nbsp;Software&nbsp;Engineer</h4><i>3/2026 - now</i>
+                        <p>PHP development of e-commerce websites (givery.cz, herni-kupony.cz).</p>
                     </li>
-                    <p>PHP development of e-commerce websites (givery.cz, herni-kupony.cz).</p>
                 </ul>
             </article>
             <article>
@@ -610,10 +596,10 @@
                 <ul>
                     <li>
                         <h4>Fullstack&nbsp;Developer</h4><i>5/2023 - 3/2026</i>
+                        <p>Development and deployment of web apps.</p>
+                        <p>Managing a library of technical documentation.</p>
+                        <p>Management of requests from Companies and Marketing</p>
                     </li>
-                    <p>Development and deployment of web apps.</p>
-                    <p>Managing a library of technical documentation.</p>
-                    <p>Management of requests from Companies and Marketing</p>
                 </ul>
             </article>
             <article>
@@ -621,10 +607,10 @@
                 <ul>
                     <li>
                         <h4>Contract&nbsp;Technical&nbsp;Writer</h4><i>4/2024 - 10/2024</i>
+                        <p>Compile business requirements, prepare QA deployment docs.</p>
+                        <p>Support PM during endorsement, conduct business analysis.</p>
+                        <p>Aid project charter prep, and review/upload old CFS project docs to repository.</p>
                     </li>
-                    <p>Compile business requirements, prepare QA deployment docs.</p>
-                    <p>Support PM during endorsement, conduct business analysis.</p>
-                    <p>Aid project charter prep, and review/upload old CFS project docs to repository.</p>
                 </ul>
             </article>
             <article>
@@ -632,15 +618,15 @@
                 <ul>
                     <li>
                         <h4>Head&nbsp;of&nbsp;IT&nbsp;Support</h4><i>11/2022 - 5/2023</i>
+                        <p>Technical Writer</p>
+                        <p>Scrum & IT resource management.</p>
+                        <p>QA, Support & testing.</p>
                     </li>
-                    <p>Technical Writer</p>
-                    <p>Scrum & IT resource management.</p>
-                    <P>QA, Support & testing.</P>
                     <li>
                         <h4>&nbsp;Support&nbsp;Specialist</h4><i>11/2021 - 11/2022</i>
+                        <p>On-Boarding new clients to core system.</p>
+                        <p>IT support.</p>
                     </li>
-                    <p>On-Boarding new clients to core system.</p>
-                    <p>IT support.</p>
                 </ul>
             </article>
             <article>
@@ -648,8 +634,8 @@
                 <ul>
                     <li>
                         <h4>IT&nbsp;Technician</h4><i>9/2020 - 11/2021</i>
+                        <p>Management of IT resources.</p>
                     </li>
-                    <p>Management of IT resources.</p>
                 </ul>
             </article>
             <article>
@@ -657,8 +643,8 @@
                 <ul>
                     <li>
                         <h4> Laboratory Technician</h4><i>10/2019 - 3/2020</i>
+                        <p>Laboratory of Phys-Chem Analysis</p>
                     </li>
-                    <p>Laboratory of Phys-Chem Analysis</p>
                 </ul>
             </article>
         </section>
@@ -668,33 +654,37 @@
             <article>
                 <h3>MD 100</h3>
                 <ul>
-                    <li><i>2021</i></li>
-                    <p>Microsoft 365 Certified: Modern Desktop Administrator Associate</p>
-                    <p>Finished by exam with certification.</p>
+                    <li><i>2021</i>
+                        <p>Microsoft 365 Certified: Modern Desktop Administrator Associate</p>
+                        <p>Finished by exam with certification.</p>
+                    </li>
                 </ul>
             </article>
             <article>
                 <h3>Codecademy Course</h3>
                 <ul>
-                    <li><i>2019 - up to date</i></li>
-                    <p>Online course</p>
-                    <p>Finished by exam with certification.</p>
+                    <li><i>2019 - up to date</i>
+                        <p>Online course</p>
+                        <p>Finished by exam with certification.</p>
+                    </li>
                 </ul>
             </article>
             <article>
                 <h3>Brno, University of Technology</h3>
                 <ul>
-                    <li><i>2016 - 2019</i></li>
-                    <p>Chemistry and Chemical Technologies</p>
-                    <p>Chemistry for Medical Applications - Nanotechnology</p>
-                    <p>Without degree <i>(DNF)</i>.</p>
+                    <li><i>2016 - 2019</i>
+                        <p>Chemistry and Chemical Technologies</p>
+                        <p>Chemistry for Medical Applications - Nanotechnology</p>
+                        <p>Without degree <i>(DNF)</i>.</p>
+                    </li>
                 </ul>
             </article>
             <article>
                 <h3>Grammar School Boticska, Prague</h3>
                 <ul>
-                    <li><i>2012 - 2016</i></li>
-                    <p>Secondary School for Natural Sciences</p>
+                    <li><i>2012 - 2016</i>
+                        <p>Secondary School for Natural Sciences</p>
+                    </li>
                 </ul>
             </article>
         </section>
@@ -704,12 +694,12 @@
             <article>
                 <h3>Language skills</h3>
                 <ul>
-                    <li>English - B2 (Upper-Intermediate Level)</li> <input type="radio" checked="checked"> <input
-                        type="radio" checked="checked"> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled>
-                    <li>German - A2 (Elementary Level)</li> <input type="radio" checked="checked"> <input type="radio"
-                        checked="checked"> <input type="radio" disabled> <input type="radio" disabled> <input
-                        type="radio" disabled>
+                    <li>English - B2 (Upper-Intermediate Level)
+                        <span class="rating" role="img" aria-label="4 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span></span>
+                    </li>
+                    <li>German - A2 (Elementary Level)
+                        <span class="rating" role="img" aria-label="2 out of 5"><span class="rating-dot is-filled"></span><span class="rating-dot is-filled"></span><span class="rating-dot"></span><span class="rating-dot"></span><span class="rating-dot"></span></span>
+                    </li>
                 </ul>
             </article>
             <article>
@@ -747,7 +737,7 @@
                     </li>
                     <li>
                         Tabletop – miniature tabletop (40K/AoS) & board gaming –
-                        <a href="../index.html#side-projects" class="simple-href" target="_blank">tools I build for it</a>
+                        <a href="../index.html#side-projects" target="_blank">tools I build for it</a>
                     </li>
                 </ul>
             </article>
@@ -759,12 +749,15 @@
                 <a class="button"
                     href="https://drive.google.com/uc?export=download&id=15YbuPsuYJf6fwUMDKDBm1oJALvcC2JxD">Download my
                     CV in Czech</a>
-                <a id="Download" class="button"
+                <a id="Download" class="button button-accent"
                     href="https://drive.google.com/uc?export=download&id=1MGhiiK8BTZuzWUAd59cYmI2TTpqSivQL">Download my
                     CV in English</a>
             </li>
         </ul>
     </footer>
+    <!--Scroll animations-->
+    <script src="../scroll-animations.js" data-rise="main > section, footer" data-draw="main hr"
+        data-pop=".rating-dot"></script>
 </body>
 
 </html>
