@@ -357,6 +357,34 @@ summary::-webkit-details-marker {
     border-radius: 0.25rem;
 }
 
+/*Smooth open/close where the browser supports animating details; others just snap open*/
+@media (prefers-reduced-motion: no-preference) {
+    .project > details {
+        interpolate-size: allow-keywords;
+    }
+
+    .project > details::details-content {
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: height 0.3s ease-out, opacity 0.3s ease-out, content-visibility 0.3s allow-discrete;
+    }
+
+    /*Opening needs a keyframe animation: the transition alone only animates closing*/
+    .project > details[open]::details-content {
+        height: auto;
+        opacity: 1;
+        animation: details-open 0.3s ease-out;
+    }
+
+    @keyframes details-open {
+        from {
+            height: 0;
+            opacity: 0;
+        }
+    }
+}
+
 .popis p {
     margin: 0 0 0.75rem;
 }
@@ -381,7 +409,7 @@ summary::-webkit-details-marker {
     box-shadow: 1em 1em 1em -1em rgba(0, 0, 0, 0.75);
 }
 
-/*Side projects: same cards, smaller, three per row, screenshot on top*/
+/*Side projects: same cards as projects*/
 .side-projects {
     margin-top: 4rem;
 }
@@ -389,40 +417,6 @@ summary::-webkit-details-marker {
 .section-intro {
     max-width: 45em;
     margin: -0.5rem 0 1.5rem;
-}
-
-.side-projects-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: stretch;
-}
-
-.side-projects-grid .project {
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.side-projects-grid .project-title {
-    font-size: 1.25rem;
-}
-
-.side-projects-grid .thumbnail {
-    flex: none;
-    align-self: stretch;
-    margin: 0;
-    overflow: hidden;
-    border-radius: 0.25rem 0.25rem 0 0;
-}
-
-.side-projects-grid .thumbnail img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    border-radius: 0;
-}
-
-.side-projects-grid .project:hover .thumbnail img {
-    transform: none;
-    box-shadow: none;
 }
 
 .project-links {
@@ -436,10 +430,6 @@ summary::-webkit-details-marker {
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
     .project:hover {
         transform: translateY(-4px);
-    }
-
-    .side-projects-grid .project:hover .thumbnail img {
-        transform: scale(1.04);
     }
 }
 
@@ -485,10 +475,6 @@ footer .fineprint a {
     .projects-grid {
         grid-template-columns: minmax(0, 1fr);
     }
-
-    .side-projects-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
 }
 
 @media (max-width: 767px) {
@@ -517,10 +503,6 @@ footer .fineprint a {
 
     .site-nav a:not(.btn) {
         display: none;
-    }
-
-    .side-projects-grid {
-        grid-template-columns: minmax(0, 1fr);
     }
 
     .project {
