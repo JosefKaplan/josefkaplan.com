@@ -259,6 +259,15 @@ details[open] .btn-outline-primary {
     border: 1px solid var(--border);
     border-radius: 0.25rem;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, border-color 0.2s ease-out,
+        background-color 0.2s ease-out;
+}
+
+.project:hover,
+.project:focus-within {
+    background-color: #fff;
+    border-color: rgba(69, 87, 212, 0.45);
+    box-shadow: 0 0.75rem 1.5rem -0.75rem rgba(2, 19, 129, 0.4);
 }
 
 .project-body {
@@ -390,15 +399,6 @@ summary::-webkit-details-marker {
 .side-projects-grid .project {
     flex-direction: column;
     flex-wrap: nowrap;
-    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, border-color 0.2s ease-out,
-        background-color 0.2s ease-out;
-}
-
-.side-projects-grid .project:hover,
-.side-projects-grid .project:focus-within {
-    background-color: #fff;
-    border-color: rgba(69, 87, 212, 0.45);
-    box-shadow: 0 0.75rem 1.5rem -0.75rem rgba(2, 19, 129, 0.4);
 }
 
 .side-projects-grid .project-title {
@@ -434,7 +434,7 @@ summary::-webkit-details-marker {
 
 /*Lift only where hover is real and motion is welcome*/
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-    .side-projects-grid .project:hover {
+    .project:hover {
         transform: translateY(-4px);
     }
 
