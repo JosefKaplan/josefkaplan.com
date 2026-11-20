@@ -44,6 +44,11 @@ i {
     color: var(--muted);
 }
 
+/*Header links glide to their section, as on the portfolio page*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*Anchor targets must clear the fixed header*/
 [id] {
     scroll-margin-top: calc(var(--header-height) + 1rem);
@@ -279,15 +284,6 @@ section {
     border: 1px solid var(--border);
     border-radius: 0.25rem;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-}
-
-.projects li {
-    list-style-type: none;
-    margin: 0.5rem;
-}
-
-.projects ul {
-    margin: 0.5rem;
 }
 
 h1 {
